@@ -8,7 +8,6 @@
 		<include>CommonTopBar</include>
 		<include>CommonBottomBar</include>
 		<include>CommonBackgroundOverlay</include>
-		<include>MediaBladeLeft</include>
 		<include>FileCountCommons</include>
 		<include>HomeButtonCommons</include>
 		<include>OptionsButtonCommons</include>
@@ -22,10 +21,6 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<include>CommonRootViewVideo</include> <!-- view id = 50 -->
-			<include>ThumbnailView</include> <!-- view id = 500 -->
-			<!--<include>WideIconView</include> <!-- view id = 502 -->
-			<include>RootViewMetaDataVideo</include> <!-- view id = 550 -->
-			<!--<include>WideIconMetaDataView</include> <!-- view id = 552 -->
 		</control>
 		<include>ScrollBarCommons</include>
 		<include>MediaSubMenu</include>
@@ -73,6 +68,7 @@
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>
+					<visible>Player.HasMedia</visible>
 					<posx>270</posx>
 					<posy>-34</posy>
 					<width>40</width>

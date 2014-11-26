@@ -7,7 +7,6 @@
 		<include>CommonBackground</include>
 		<include>CommonBackgroundOverlay</include>
 		<include>CommonTopBar</include>
-		<include>MediaBladeLeft</include>
 		<include>CommonBottomBar</include>
 		<include>FileCountCommons</include>
 		<include>HomeButtonCommons</include>
@@ -23,7 +22,6 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<include>CommonRootView</include> <!-- view id = 50 -->
-			<include>ThumbnailView</include> <!-- view id = 500 -->
 		</control>
 		<include>ScrollBarCommons</include>
 		<include>MediaSubMenu</include>
@@ -70,6 +68,7 @@
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
+					<visible>Player.HasMedia</visible>
 					<description>Panel Arrow image</description>
 					<posx>270</posx>
 					<posy>-34</posy>

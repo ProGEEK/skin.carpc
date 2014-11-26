@@ -5,8 +5,8 @@
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<coordinates>
 		<system>1</system>
-		<posx>-50</posx>
-		<posy>0</posy>
+		<posx>130</posx>
+		<posy>30</posy>
 	</coordinates>
 	<controls>
 		<control type="image">
@@ -33,7 +33,7 @@
 			<posx>0</posx>
 			<posy>60</posy>
 			<width>1020</width>
-			<height>660</height>
+			<height>840</height>
 			<texture border="5">DialogBack.png</texture>
 		</control>
 
@@ -54,7 +54,7 @@
 			<posx>20</posx>
 			<posy>120</posy>
 			<width>960</width>
-			<height>500</height>
+			<height>650</height>
 			<onleft>9000</onleft>
 			<onright>60</onright>
 			<onup>450</onup>
@@ -122,7 +122,7 @@
 			<posx>990</posx>
 			<posy>120</posy>
 			<width>29</width>
-			<height>600</height>
+			<height>650</height>
 			<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 			<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 			<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -138,10 +138,10 @@
 			<animation effect="fade" time="150">Hidden</animation>
 			<visible>Control.IsVisible(450)</visible>
 		</control>
-		<!--<control type="label">
+		<control type="label">
 			<description>Page label</description>
 			<posx>980</posx>
-			<posy>690</posy>
+			<posy>780</posy>
 			<width>660</width>
 			<height>30</height>
 			<align>right</align>
@@ -150,7 +150,7 @@
 			<textcolor>black</textcolor>
 			<label>($INFO[Container(450).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages])</label>
 			<visible>!Control.IsVisible(451)</visible>
-		</control>-->
+		</control>
 		<control type="panel" id="451">
 			<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(61)">Conditional</animation>
 			<posx>20</posx>
@@ -230,10 +230,10 @@
 			<animation effect="fade" time="150">Hidden</animation>
 			<visible>Control.IsVisible(451)</visible>
 		</control>
-		<!--<control type="label">
+		<control type="label">
 			<description>Page label</description>
 			<posx>980</posx>
-			<posy>680</posy>
+			<posy>780</posy>
 			<width>660</width>
 			<height>30</height>
 			<align>right</align>
@@ -242,10 +242,10 @@
 			<textcolor>black</textcolor>
 			<label>($INFO[Container(451).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(451).CurrentPage]/$INFO[Container(451).NumPages])</label>
 			<visible>Control.IsVisible(451)</visible>
-		</control>-->
+		</control>
 		<control type="grouplist" id="9000">
 			<posx>20</posx>
-			<posy>650</posy>
+			<posy>830</posy>
 			<width>980</width>
 			<height>50</height>
 			<itemgap>5</itemgap>

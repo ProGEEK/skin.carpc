@@ -6,9 +6,11 @@
 		<include>CommonBackground</include>
 		<include>CommonTopBar</include>
 		<include>CommonBottomBar</include>
+		<!--<include>CommonBackgroundOverlay</include>-->
 		<include>HomeButtonCommons</include>
+		<include>Time</include>
         <include>BottomNowPLaying</include>
-        
+        <include>Logo_dc</include>
       
 		<control type="group">
 			<include>Window_OpenClose_Animation_Slide_Down</include>
@@ -17,41 +19,43 @@
 			<visible>!Window.IsActive(PlayerControls)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
-				<description>Update button</description>
-				<posx>320r</posx>
-				<posy>10</posy>
-				<width>300</width>
-				<height>60</height>
+				<description>Home Button</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>500</width>
+				<height>100</height>
 				<font>-</font>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<onclick>RunScript("plugin.program.carpcupdater")</onclick>
+				<texturenofocus>floor_button_t.png</texturenofocus>
+				<texturefocus>floor_buttonfo.png</texturefocus>
+				<onclick>RunScript("special://skin/scripts/update-xbmc.py")</onclick>
 			</control>
 			<control type="label">
 				<description>System Update</description>
-				<posx>320r</posx>
-				<posy>7</posy>
-				<height>60</height>
-				<width>300</width>
+				<posx>0</posx>
+				<posy>-5</posy>
+				<height>100</height>
+				<width>500</width>
 				<label>System Update</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font30_title</font>
+				<font>font50_title</font>
 				<textcolor>FFFFFFF0</textcolor>	
 			</control>
 		</control>
 
-      <control type="group">
+        <!--Big buttons-->
+
+        <control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>165</posx>
-			<posy>88</posy>
+			<posx>220</posx>
+			<posy>118</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Appearance</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>164</height>
 				<font>-</font>
 				<texturenofocus >settings_l.png</texturenofocus>
 				<texturefocus>settings_l_p.png</texturefocus>
@@ -59,37 +63,37 @@
 			</control>
 			<control type="image">
 				<description>Appearance</description>
-				<posx>37</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_appearence.png</texture>
 			</control>
 			<control type="label">
 				<description>Appearance</description>
-				<posx>110</posx>
+				<posx>150</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Appearance</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		    <include>Window_OpenClose_Animation_Zoom</include>
-			<posx>165</posx>
-			<posy>223</posy>
+			<posx>220</posx>
+			<posy>298</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Music</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>164</height>
 				<font>-</font>
 				<texturenofocus >settings_l.png</texturenofocus>
 				<texturefocus>settings_l_p.png</texturefocus>
@@ -97,37 +101,37 @@
 			</control>
 			<control type="image">
 				<description>Music</description>
-				<posx>37</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_music.png</texture>
 			</control>
 			<control type="label">
 				<description>Music</description>
-				<posx>180</posx>
+				<posx>235</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Music</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>165</posx>
-			<posy>358</posy>
+			<posx>220</posx>
+			<posy>478</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Weather</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>164</height>
 				<font>-</font>
 				<texturenofocus >settings_l.png</texturenofocus>
 				<texturefocus>settings_l_p.png</texturefocus>
@@ -135,37 +139,37 @@
 			</control>
 			<control type="image">
 				<description>Weather</description>
-				<posx>37</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_weather.png</texture>
 			</control>
 			<control type="label">
 				<description>Weather</description>
-				<posx>146</posx>
+				<posx>200</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Weather</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>165</posx>
-			<posy>493</posy>
+			<posx>220</posx>
+			<posy>658</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Services</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>164</height>
 				<font>-</font>
 				<texturenofocus >settings_l.png</texturenofocus>
 				<texturefocus>settings_l_p.png</texturefocus>
@@ -173,37 +177,37 @@
 			</control>
 			<control type="image">
 				<description>Services</description>
-				<posx>37</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_network.png</texture>
 			</control>
 			<control type="label">
 				<description>Services</description>
-				<posx>150</posx>
+				<posx>200</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Services</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 
         <control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>652</posx>
-			<posy>88</posy>
+			<posx>870</posx>
+			<posy>118</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Video</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>166</height>
 				<font>-</font>
 				<texturenofocus >settings_r.png</texturenofocus>
 				<texturefocus>settings_r_p.png</texturefocus>
@@ -211,37 +215,37 @@
 			</control>
 			<control type="image">
 				<description>Video</description>
-				<posx>337</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_video.png</texture>
 			</control>
 			<control type="label">
 				<description>Video</description>
-				<posx>75</posx>
+				<posx>100</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Video</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>652</posx>
-			<posy>223</posy>
+			<posx>870</posx>
+			<posy>298</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Pictures</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>166</height>
 				<font>-</font>
 				<texturenofocus >settings_r.png</texturenofocus>
 				<texturefocus>settings_r_p.png</texturefocus>
@@ -249,37 +253,37 @@
 			</control>
 			<control type="image">
 				<description>Pictures</description>
-				<posx>337</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_pictures.png</texture>
 			</control>
 			<control type="label">
 				<description>Pictures</description>
-				<posx>75</posx>
+				<posx>100</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Pictures</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>652</posx>
-			<posy>358</posy>
+			<posx>870</posx>
+			<posy>478</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Add-ons</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>166</height>
 				<font>-</font>
 				<texturenofocus >settings_r.png</texturenofocus>
 				<texturefocus>settings_r_p.png</texturefocus>
@@ -287,37 +291,37 @@
 			</control>
 			<control type="image">
 				<description>Add-ons</description>
-				<posx>337</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_addons.png</texture>
 			</control>
 			<control type="label">
 				<description>Add-ons</description>
-				<posx>75</posx>
+				<posx>100</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>Add-ons</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 		
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>652</posx>
-			<posy>493</posy>
+			<posx>870</posx>
+			<posy>658</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>System</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>459</width>
-				<height>123</height>
+				<width>612</width>
+				<height>166</height>
 				<font>-</font>
 				<texturenofocus >settings_r.png</texturenofocus>
 				<texturefocus>settings_r_p.png</texturefocus>
@@ -325,23 +329,23 @@
 			</control>
 			<control type="image">
 				<description>System</description>
-				<posx>337</posx>
-				<posy>22</posy>
-				<width>75</width>
-				<height>75</height>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
 				<texture>icon_big_system.png</texture>
 			</control>
 			<control type="label">
 				<description>System</description>
-				<posx>75</posx>
+				<posx>100</posx>
 				<posy>0</posy>
-				<height>112</height>
-				<width>300</width>
+				<height>150</height>
+				<width>400</width>
 				<label>System</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>font40_title</font>
-				<textcolor>FFFFFFFF</textcolor>		
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
 			</control>
 		</control>
 
@@ -365,21 +369,16 @@
 					<onclick>ActivateWindow(Profiles)</onclick>
 					<icon>icon_profile_w.png</icon>
 				</item>-->
-				<item>
+				<!--<item>
 					<label>20077</label>
 					<onclick>ActivateWindow(1113)</onclick>
 					<icon>icon_skin_w.png</icon>
-				</item>
+				</item>-->
 				<item>
 					<label>130</label>
 					<onclick>ActivateWindow(SystemInfo)</onclick>
 					<icon>icon_systeminfo_w.png</icon>
 				</item>
-				<!--<item>
-					<label>1036</label>
-					<onclick>ActivateWindow(Favourites)</onclick>
-					<icon>icon_favourites_w.png</icon>
-				</item>-->
 				<item>
 					<label>31200</label>
 					<onclick>Back</onclick>

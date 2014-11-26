@@ -8,25 +8,19 @@
 		<include>CommonBackgroundOverlay</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
-
+		<include>Time</include>
 		<include>BottomNowPLaying</include>
 		
 		<control type="label">
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>
-			<label>$LOCALIZE[5]$INFO[Control.GetLabel(2), - ]</label>
+			<label>$LOCALIZE[5]</label>
 		</control>
 		<control type="panel" id="9002">
 			<visible>!Window.IsActive(PlayerControls)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>SubMenuCommonLayout</include>
 			<content>
-				<item>
-					<label>1036</label>
-					<onclick>ActivateWindow(Favourites)</onclick>
-					<icon>icon_favourites_w.png</icon>
-				</item>
-				
 				<item>
 					<label>31200</label>
 					<onclick>Back</onclick>
@@ -37,14 +31,14 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<include>16x9_xPos_Relocation</include>
-			<posx>37</posx>
-			<posy>105</posy>
+			<posx>50</posx>
+			<posy>140</posy>
 			<control type="grouplist" id="3">
 				<description>button area</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>210</width>
-				<height>640</height>
+				<width>280</width>
+				<height>720</height>
 				<itemgap>-1</itemgap>
 				<onleft>5</onleft>
 				<onright>5</onright>
@@ -53,12 +47,12 @@
 			</control>
 			<control type="grouplist" id="5">
 				<description>control area</description>
-				<posx>225</posx>
+				<posx>300</posx>
 				<posy>0</posy>
-				<width>760</width>
-				<height>520</height>
+				<width>880</width>
+				<height>720</height>
 				<itemgap>0</itemgap>
-				<pagecontrol>37</pagecontrol>
+				<pagecontrol>60</pagecontrol>
 				<onleft>3</onleft>
 				<onright>3</onright>
 				<onup>5</onup>
@@ -70,8 +64,8 @@
 		<control type="button" id="10">
 			<description>Default Category Button</description>
 			<height>70</height>
-			<textoffsetx>5</textoffsetx>
-			<align>left</align>
+			<textoffsetx>20</textoffsetx>
+			<align>right</align>
 			<aligny>center</aligny>
 			<font>font24_title</font>
 			<textcolor>white</textcolor>

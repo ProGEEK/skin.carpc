@@ -8,6 +8,7 @@
 		<include>CommonBottomBar</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
+		<include>Time</include>
 		<control type="label">
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>
@@ -22,11 +23,6 @@
 					<label>31200</label>
 					<onclick>Back</onclick>
 					<icon>icon_back_w.png</icon>
-				</item>
-				<item>
-					<label>1036</label>
-					<onclick>ActivateWindow(Favourites)</onclick>
-					<icon>icon_favourites_w.png</icon>
 				</item>
 			</content>
 		</control>

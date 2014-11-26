@@ -53,8 +53,8 @@
 				<width>250</width>
 				<height>46</height>
 				<label>-</label>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button_t.png</texturenofocus>
+				<texturefocus border="5">floor_buttonfo.png</texturefocus>
 				<onclick>Skin.ToggleSetting(SubtitleSourceChooserVisible)</onclick>
 			</control>
 			<control type="image" id="110">
@@ -359,6 +359,7 @@
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>
+					<visible>Player.HasMedia</visible>
 					<posx>50</posx>
 					<posy>-34</posy>
 					<width>40</width>

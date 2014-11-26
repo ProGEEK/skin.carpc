@@ -4,8 +4,8 @@
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<coordinates>
 		<system>1</system>
-		<posx>100</posx>
-		<posy>100</posy>
+		<posx>240</posx>
+		<posy>220</posy>
 	</coordinates>
 	<controls>
 		<control type="image">

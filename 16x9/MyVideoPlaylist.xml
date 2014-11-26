@@ -5,12 +5,10 @@
 	<onunload>Skin.Reset(MediaSubMenuVisible)</onunload>
 	<controls>
 		<include>CommonBackground</include>
-		<include>MediaBladeLeft</include>
 		<include>CommonBackgroundOverlay</include>
 		<include>FileCountCommons</include>
 		<include>HomeButtonCommons</include>
 		<include>OptionsButtonCommons</include>
-
         <include>BottomNowPLaying</include>
         
 		<control type="label">
@@ -21,7 +19,6 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<include>CommonRootView</include> <!-- view id = 50 -->
-			<include>ThumbnailView</include> <!-- view id = 500 -->
 		</control>
 		<control type="panel" id="9002">
 			<visible>!Window.IsActive(PlayerControls)</visible>
@@ -32,11 +29,6 @@
 					<label>31200</label>
 					<onclick>ParentDir</onclick>
 					<icon>icon_back.png</icon>
-				</item>
-				<item>
-					<label>1036</label>
-					<onclick>ActivateWindow(Favourites)</onclick>
-					<icon>icon_favourites.png</icon>
 				</item>
 			</content>
 		</control>

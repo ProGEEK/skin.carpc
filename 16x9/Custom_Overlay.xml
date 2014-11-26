@@ -13,9 +13,9 @@
 			<width>1280</width>
 			<height>720</height>
 			<texture>special://skin/debuggrid720.png</texture>
-			<!--width>1920</width>
+			<!--<width>1920</width>
 			<height>1080</height>
-			<texture>special://skin/debuggrid1080.png</texture-->
+			<texture>special://skin/debuggrid1080.png</texture>-->
 		</control>
 
 		<!-- Window/Dialog debug -->
@@ -39,6 +39,17 @@
 				<align>left</align>
 				<label>AddonBrowser.xml</label>
 				<visible>Window.IsVisible(AddonBrowser.xml)</visible>
+			</control>
+
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FF0000FF</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>CustomSettings.xml</label>
+				<visible>Window.IsVisible(CustomSettings.xml)</visible>
 			</control>
 
 			<control type="label">
@@ -224,17 +235,6 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>SkinSettings.xml</label>
-				<visible>Window.IsVisible(SkinSettings.xml)</visible>
-			</control>
-
-			<control type="label">
-				<width>780</width>
-				<height>21</height>
-				<textcolor>FF0000FF</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<font>font13</font>
-				<align>left</align>
 				<label>VideoFullScreen.xml</label>
 				<visible>Window.IsVisible(VideoFullScreen.xml)</visible>
 			</control>
@@ -336,17 +336,6 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>DialogFavourites.xml</label>
-				<visible>Window.IsVisible(DialogFavourites.xml)</visible>
-			</control>
-
-			<control type="label">
-				<width>780</width>
-				<height>21</height>
-				<textcolor>FFFF0000</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<font>font13</font>
-				<align>left</align>
 				<label>DialogFileStacking.xml</label>
 				<visible>Window.IsVisible(DialogFileStacking.xml)</visible>
 			</control>
@@ -413,8 +402,8 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>DialogMediaFilter.xml</label>
-				<visible>Window.IsVisible(DialogMediaFilter.xml)</visible>
+				<label>DialogMediaSource.xml</label>
+				<visible>Window.IsVisible(DialogMediaSource.xml)</visible>
 			</control>
 
 			<control type="label">
@@ -424,8 +413,8 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>DialogMediaSource.xml</label>
-				<visible>Window.IsVisible(DialogMediaSource.xml)</visible>
+				<label>DialogMusicScan.xml</label>
+				<visible>Window.IsVisible(DialogMusicScan.xml)</visible>
 			</control>
 
 			<control type="label">
@@ -655,17 +644,6 @@
 				<shadowcolor>FF000000</shadowcolor>
 				<font>font13</font>
 				<align>left</align>
-				<label>DialogSubtitles.xml</label>
-				<visible>Window.IsVisible(DialogSubtitles.xml)</visible>
-			</control>
-
-			<control type="label">
-				<width>780</width>
-				<height>21</height>
-				<textcolor>FFFF0000</textcolor>
-				<shadowcolor>FF000000</shadowcolor>
-				<font>font13</font>
-				<align>left</align>
 				<label>DialogTextViewer.xml</label>
 				<visible>Window.IsVisible(DialogTextViewer.xml)</visible>
 			</control>
@@ -679,6 +657,17 @@
 				<align>left</align>
 				<label>DialogVideoInfo.xml</label>
 				<visible>Window.IsVisible(DialogVideoInfo.xml)</visible>
+			</control>
+
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FFFF0000</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>DialogVideoScan.xml</label>
+				<visible>Window.IsVisible(DialogVideoScan.xml)</visible>
 			</control>
 
 			<control type="label">

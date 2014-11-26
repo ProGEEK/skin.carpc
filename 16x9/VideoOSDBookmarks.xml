@@ -3,8 +3,8 @@
 	<include>Window_OpenClose_Animation_Zoom</include>
 	<coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<posx>235</posx>
+		<posy>80</posy>
 	</coordinates>
 	<controls>
 		<control type="image">
@@ -12,7 +12,7 @@
 			<posx>-30</posx>
 			<posy>-30</posy>
 			<width>870</width>
-			<height>760</height>
+			<height>860</height>
 			<texture border="30">DialogShadow.png</texture>
 		</control>
 		<control type="image">

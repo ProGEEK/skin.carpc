@@ -66,8 +66,8 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<selected>Skin.HasSetting(SlideShowShowAudioInfo)</selected>
-					<texturenofocus border="5">floor_button.png</texturenofocus>
-					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button_t.png</texturenofocus>
+					<texturefocus border="5">floor_buttonfo.png</texturefocus>
 					<onclick>Skin.ToggleSetting(SlideShowShowAudioInfo)</onclick>
 					<visible>Player.HasAudio</visible>
 				</control>
@@ -79,8 +79,8 @@
 					<font>font13</font>
 					<align>center</align>
 					<aligny>center</aligny>
-					<texturenofocus border="5">floor_button.png</texturenofocus>
-					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button_t.png</texturenofocus>
+					<texturefocus border="5">floor_buttonfo.png</texturefocus>
 					<onclick>ActivateWindow(PictureInfo)</onclick>
 				</control>
 				<control type="radiobutton">
@@ -93,8 +93,8 @@
 					<font>font13</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<texturenofocus border="5">floor_button.png</texturenofocus>
-					<texturefocus border="5">floor_buttonFO.png</texturefocus>
+					<texturenofocus border="5">floor_button_t.png</texturenofocus>
+					<texturefocus border="5">floor_buttonfo.png</texturefocus>
 					<label>31008</label>
 					<onclick>back</onclick>
 					<textureradioon flipx="true" flipy="true">GoFullscreen.png</textureradioon>

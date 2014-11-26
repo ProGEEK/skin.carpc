@@ -22,7 +22,6 @@
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<include>CommonRootView</include> <!-- view id = 50 -->
-			<include>ThumbnailView</include> <!-- view id = 500 -->
 		</control>
 		<include>ScrollBarCommons</include>
 		<include>MediaSubMenu</include>
@@ -70,6 +69,7 @@
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>
+					<visible>Player.HasMedia</visible>
 					<posx>270</posx>
 					<posy>-34</posy>
 					<width>40</width>

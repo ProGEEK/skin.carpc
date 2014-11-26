@@ -14,15 +14,15 @@
 			<label>$LOCALIZE[10503]</label>
 		</control>
 		<control type="group">
-			<posx>30</posx>
-			<posy>82</posy>
+			<posx>40</posx>
+			<posy>110</posy>
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<control type="label">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>442</width>
-				<height>22</height>
-				<font>font12_title</font>
+				<width>590</width>
+				<height>30</height>
+				<font>font13_title</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -32,9 +32,9 @@
 			<control type="label">
 				<description>number of files/pages in left list text label</description>
 				<posx>0</posx>
-				<posy>532</posy>
-				<width>442</width>
-				<font>font12</font>
+				<posy>710</posy>
+				<width>590</width>
+				<font>font13</font>
 				<align>left</align>
 				<scroll>true</scroll>
 				<textcolor>grey2</textcolor>
@@ -43,37 +43,37 @@
 			</control>
 			<control type="panel" id="50">
 				<posx>0</posx>
-				<posy>30</posy>
-				<width>442</width>
-				<height>495</height>
-				<onleft>75</onleft>
-				<onright>75</onright>
+				<posy>40</posy>
+				<width>590</width>
+				<height>660</height>
+				<onleft>100</onleft>
+				<onright>100</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<viewtype label="">list</viewtype>
 				<pagecontrol>30</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="45" width="442">
+				<itemlayout height="60" width="590">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>442</width>
-						<height>45</height>
-						<texture border="4">ListNF.png</texture>
+						<width>590</width>
+						<height>60</height>
+						<texture border="5">ListNF.png</texture>
 					</control>
 					<control type="image">
-						<posx>7</posx>
-						<posy>4</posy>
-						<width>37</width>
-						<height>37</height>
+						<posx>10</posx>
+						<posy>5</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>56</posx>
+						<posx>75</posx>
 						<posy>0</posy>
-						<width>307</width>
-						<height>45</height>
-						<font>font12</font>
+						<width>410</width>
+						<height>60</height>
+						<font>font13</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -81,11 +81,11 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>435</posx>
+						<posx>580</posx>
 						<posy>2</posy>
-						<width>300</width>
-						<height>22</height>
-						<font>font12</font>
+						<width>400</width>
+						<height>30</height>
+						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -94,10 +94,10 @@
 					</control>
 					<control type="image">
 						<description>Rating value</description>
-						<posx>360</posx>
-						<posy>22</posy>
-						<width>75</width>
-						<height>19</height>
+						<posx>480</posx>
+						<posy>30</posy>
+						<width>100</width>
+						<height>25</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture fallback="light/left_rating/rating0.png">$INFO[ListItem.StarRating,light/left_rating/]</texture>
 					</control>
@@ -106,24 +106,24 @@
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>442</width>
-						<height>45</height>
-						<texture border="4">ListFO.png</texture>
+						<width>590</width>
+						<height>60</height>
+						<texture border="5">ListFO.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<posx>7</posx>
-						<posy>4</posy>
-						<width>37</width>
-						<height>37</height>
+						<posx>10</posx>
+						<posy>5</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>56</posx>
+						<posx>75</posx>
 						<posy>0</posy>
-						<width>307</width>
-						<height>45</height>
-						<font>font12</font>
+						<width>410</width>
+						<height>60</height>
+						<font>font13</font>
 						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -131,11 +131,11 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>435</posx>
+						<posx>580</posx>
 						<posy>2</posy>
-						<width>300</width>
-						<height>22</height>
-						<font>font12</font>
+						<width>400</width>
+						<height>30</height>
+						<font>font13</font>
 						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -144,10 +144,10 @@
 					</control>
 					<control type="image">
 						<description>Rating value</description>
-						<posx>360</posx>
-						<posy>22</posy>
-						<width>75</width>
-						<height>19</height>
+						<posx>480</posx>
+						<posy>30</posy>
+						<width>100</width>
+						<height>25</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture fallback="dark/left_rating/rating0.png">$INFO[ListItem.StarRating,dark/left_rating/]</texture>
 					</control>
@@ -156,14 +156,14 @@
 		</control>
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
-			<posx>487</posx>
-			<posy>82</posy>
+			<posx>650</posx>
+			<posy>110</posy>
 			<control type="label">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>442</width>
-				<height>22</height>
-				<font>font12_title</font>
+				<width>590</width>
+				<height>30</height>
+				<font>font13_title</font>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 				<align>center</align>
@@ -172,10 +172,10 @@
 			</control>
 			<control type="label">
 				<description>Page Count Label</description>
-				<posx>442</posx>
-				<posy>532</posy>
-				<width>442</width>
-				<font>font12</font>
+				<posx>590</posx>
+				<posy>710</posy>
+				<width>590</width>
+				<font>font13</font>
 				<align>right</align>
 				<scroll>true</scroll>
 				<textcolor>grey2</textcolor>
@@ -184,37 +184,37 @@
 			</control>
 			<control type="panel" id="100">
 				<posx>0</posx>
-				<posy>30</posy>
-				<width>442</width>
-				<height>495</height>
-				<onleft>37</onleft>
-				<onright>37</onright>
+				<posy>40</posy>
+				<width>590</width>
+				<height>660</height>
+				<onleft>50</onleft>
+				<onright>50</onright>
 				<onup>100</onup>
 				<ondown>100</ondown>
 				<viewtype label="">list</viewtype>
 				<pagecontrol>30</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="45" width="442">
+				<itemlayout height="60" width="590">
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>442</width>
-						<height>45</height>
-						<texture border="4">ListNF.png</texture>
+						<width>590</width>
+						<height>60</height>
+						<texture border="5">ListNF.png</texture>
 					</control>
 					<control type="image">
-						<posx>7</posx>
-						<posy>4</posy>
-						<width>37</width>
-						<height>37</height>
+						<posx>10</posx>
+						<posy>5</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>56</posx>
+						<posx>75</posx>
 						<posy>0</posy>
-						<width>307</width>
-						<height>45</height>
-						<font>font12</font>
+						<width>410</width>
+						<height>60</height>
+						<font>font13</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -222,11 +222,11 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>435</posx>
+						<posx>580</posx>
 						<posy>2</posy>
-						<width>300</width>
-						<height>22</height>
-						<font>font12</font>
+						<width>400</width>
+						<height>30</height>
+						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -235,10 +235,10 @@
 					</control>
 					<control type="image">
 						<description>Rating value</description>
-						<posx>360</posx>
-						<posy>22</posy>
-						<width>75</width>
-						<height>19</height>
+						<posx>480</posx>
+						<posy>30</posy>
+						<width>100</width>
+						<height>25</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture fallback="light/left_rating/rating0.png">$INFO[ListItem.StarRating,light/left_rating/]</texture>
 					</control>
@@ -247,24 +247,24 @@
 					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>442</width>
-						<height>45</height>
-						<texture border="4">ListFO.png</texture>
+						<width>590</width>
+						<height>60</height>
+						<texture border="5">ListFO.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<posx>7</posx>
-						<posy>4</posy>
-						<width>37</width>
-						<height>37</height>
+						<posx>10</posx>
+						<posy>5</posy>
+						<width>50</width>
+						<height>50</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>56</posx>
+						<posx>75</posx>
 						<posy>0</posy>
-						<width>307</width>
-						<height>45</height>
-						<font>font12</font>
+						<width>410</width>
+						<height>60</height>
+						<font>font13</font>
 						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
@@ -272,11 +272,11 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
-						<posx>435</posx>
+						<posx>580</posx>
 						<posy>2</posy>
-						<width>300</width>
-						<height>22</height>
-						<font>font12</font>
+						<width>400</width>
+						<height>30</height>
+						<font>font13</font>
 						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
@@ -285,10 +285,10 @@
 					</control>
 					<control type="image">
 						<description>Rating value</description>
-						<posx>360</posx>
-						<posy>22</posy>
-						<width>75</width>
-						<height>19</height>
+						<posx>480</posx>
+						<posy>30</posy>
+						<width>100</width>
+						<height>25</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture fallback="dark/left_rating/rating0.png">$INFO[ListItem.StarRating,dark/left_rating/]</texture>
 					</control>
@@ -300,12 +300,6 @@
 			<include>VisibleFadeEffect</include>
 			<include>SubMenuCommonLayout</include>
 			<content>
-				
-				<item>
-					<label>1036</label>
-					<onclick>ActivateWindow(Favourites)</onclick>
-					<icon>icon_favourites.png</icon>
-				</item>
 				<item>
 					<label>31200</label>
 					<onclick>ParentDir</onclick>
@@ -327,47 +321,48 @@
 				<onclick>Skin.Reset(MediaSubMenuVisible)</onclick>
 			</control>
 			<control type="group">
-				<posx>225r</posx>
-				<posy>97</posy>
+				<posx>340r</posx>
+				<posy>130</posy>
 				<control type="image">
 					<description>Shadow Background</description>
-					<posx>-22</posx>
-					<posy>-22</posy>
-					<width>285</width>
-					<height>375</height>
-					<texture border="22">ShadowBorder.png</texture>
+					<posx>-30</posx>
+					<posy>-30</posy>
+					<width>380</width>
+					<height>500</height>
+					<texture border="30">ShadowBorder.png</texture>
 				</control>
 				<control type="button">
 					<description>Panel Background image</description>
 					<posx>0</posx>
 					<posy>0</posy>
-					<width>240</width>
-					<height>330</height>
-					<texturefocus border="4">SubBack.png</texturefocus>
-					<texturenofocus border="4">SubBack.png</texturenofocus>
+					<width>320</width>
+					<height>440</height>
+					<texturefocus border="5">SubBack.png</texturefocus>
+					<texturenofocus border="5">SubBack.png</texturenofocus>
 					<onclick>noop</onclick>
 				</control>
 				<control type="image">
 					<description>Panel Forground image</description>
-					<posx>7</posx>
-					<posy>7</posy>
-					<width>225</width>
-					<height>315</height>
+					<posx>10</posx>
+					<posy>10</posy>
+					<width>300</width>
+					<height>420</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>
-					<posx>202</posx>
-					<posy>-25</posy>
-					<width>30</width>
-					<height>30</height>
+					<visible>Player.HasMedia</visible>
+					<posx>270</posx>
+					<posy>-34</posy>
+					<width>40</width>
+					<height>40</height>
 					<texture>arrow-big-up.png</texture>
 				</control>
 				<control type="grouplist">
-					<posx>8</posx>
-					<posy>7</posy>
-					<width>223</width>
-					<height>315</height>
+					<posx>11</posx>
+					<posy>10</posy>
+					<width>298</width>
+					<height>420</height>
 					<onleft>9000</onleft>
 					<onright>50</onright>
 					<onup>9000</onup>
@@ -390,9 +385,9 @@
 					</control>
 					<control type="image">
 						<posx>0</posx>
-						<posy>75</posy>
-						<width>223</width>
-						<height>7</height>
+						<posy>100</posy>
+						<width>298</width>
+						<height>10</height>
 						<texture>shelf_shadow.png</texture>
 					</control>
 				</control>
