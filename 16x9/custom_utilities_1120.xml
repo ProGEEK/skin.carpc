@@ -1,0 +1,210 @@
+<window id="1120">
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<onunload>Skin.Reset(MediaSubMenuVisible)</onunload>
+	<controls>
+		<include>CommonBackground</include>
+		<control type="videowindow">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>ScreenWidth</width>
+			<height>ScreenHeight</height>
+			<visible>Player.HasVideo</visible>
+		</control>
+		
+		<!--<control type="image">
+				<posx>0</posx>
+				<posy>ScreenHeight</posy>
+				<width>ScreenWidth</width>
+				<height>-100</height>
+				<texture>shelf_shadow.png</texture>
+		</control>-->
+		
+		<include>CommonTopBar</include>		
+		<include>HomeButtonCommons</include>
+		<include>Time</include>
+
+		<control type="label">
+			<description>Window label</description>
+			<include>MediaWindowTitleCommons</include>
+			<label>Utilities</label>
+		</control>
+		<control type="group">
+		<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>220</posx>
+			<posy>298</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Sync Music</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>612</width>
+				<height>164</height>
+				<font>-</font>
+				<texturenofocus >settings_l.png</texturenofocus>
+				<texturefocus>settings_l_p.png</texturefocus>
+				<onclick>RunScript("special://skin/scripts/sync-music.py")</onclick>
+			</control>
+			<control type="image">
+				<description>Sync Music</description>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
+				<texture>icon_big_music.png</texture>
+			</control>
+			<control type="label">
+				<description>Sync Music</description>
+				<posx>150</posx>
+				<posy>0</posy>
+				<height>150</height>
+				<width>400</width>
+				<label>Sync Music</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
+			</control>
+		</control>
+		<control type="group">
+		<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>870</posx>
+			<posy>298</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Sync Videos</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>612</width>
+				<height>166</height>
+				<font>-</font>
+				<texturenofocus >settings_r.png</texturenofocus>
+				<texturefocus>settings_r_p.png</texturefocus>
+				<onclick>RunScript("special://skin/scripts/sync-video.py")</onclick>
+			</control>
+			<control type="image">
+				<description>Sync Videos</description>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
+				<texture>icon_big_video.png</texture>
+			</control>
+			<control type="label">
+				<description>Sync Videos</description>
+				<posx>100</posx>
+				<posy>0</posy>
+				<height>150</height>
+				<width>400</width>
+				<label>Sync Videos</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
+			</control>
+		</control>
+		<control type="group">
+		<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>220</posx>
+			<posy>478</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Sync Maps</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>612</width>
+				<height>164</height>
+				<font>-</font>
+				<texturenofocus >settings_l.png</texturenofocus>
+				<texturefocus>settings_l_p.png</texturefocus>
+				<onclick>RunScript("special://skin/scripts/sync-maps.py")</onclick>
+			</control>
+			<control type="image">
+				<description>Sync Maps</description>
+				<posx>50</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
+				<texture>map-sync.png</texture>
+			</control>
+			<control type="label">
+				<description>Sync Maps</description>
+				<posx>150</posx>
+				<posy>0</posy>
+				<height>150</height>
+				<width>400</width>
+				<label>Sync Maps</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
+			</control>
+		</control>
+		<control type="group">
+		<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>870</posx>
+			<posy>478</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Restart</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>612</width>
+				<height>166</height>
+				<font>-</font>
+				<texturenofocus >settings_r.png</texturenofocus>
+				<texturefocus>settings_r_p.png</texturefocus>
+				<onclick>Reboot</onclick>
+			</control>
+			<control type="image">
+				<description>Restart</description>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
+				<texture>restart.png</texture>
+			</control>
+			<control type="label">
+				<description>Restart</description>
+				<posx>100</posx>
+				<posy>0</posy>
+				<height>150</height>
+				<width>400</width>
+				<label>Restart</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
+			</control>
+		</control>
+
+		<include>CommonBottomBar</include>
+		<include>MusicPlayerTitle</include>
+		<include>RadioStationName</include>
+		<include>HomeRecentlyAddedInfo</include>
+
+		<include>BottomNowPLaying</include>
+		
+		<control type="panel" id="9002">
+			<visible>!Window.IsActive(PlayerControls)</visible>
+			<include>SubMenuCommonLayout</include>
+			<content>
+				<item>
+					<visible>Player.HasMedia</visible>
+					<label></label>
+					<onclick>ActivateWindow(1115)</onclick>
+					<icon>arrow-big-up.png</icon>
+				</item>
+				<item>
+				<label>31200</label>
+				<onclick>Back</onclick>
+				<icon>icon_back_w.png</icon>
+			</item>
+			</content>
+		</control>
+        
+   		<include>BehindDialogFadeOut</include>
+		
+	</controls>	
+</window>
+
