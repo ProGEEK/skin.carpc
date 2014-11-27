@@ -202,7 +202,7 @@
 				<font>-</font>
 				<texturenofocus >home_5.png</texturenofocus>
 				<texturefocus border="5">home_5_p.png</texturefocus>
-				<onclick>ActivateWindow(1117)</onclick>
+				<onclick>ActivateWindow(1120)</onclick>
 			</control>
 			<control type="image">
 				<description>Utilities Button Image</description>
