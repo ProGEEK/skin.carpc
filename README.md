@@ -1,4 +1,4 @@
-skin.mitsubishmc
+skin.fordmc
 ================
 
 Mod of Dorel's Carbon XBMC CarPC theme sourced from https://github.com/idorel77/skin.CarPC-touch_carbon

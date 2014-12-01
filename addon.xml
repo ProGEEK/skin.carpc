@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.mitsubishmc"
+  id="skin.fordmc"
   version="2.0.1"
-  name="MitsubishMC"
+  name="FordMC"
   provider-name="Ryan Davies">
   <requires>
     <import addon="xbmc.gui" version="5.0.0"/>

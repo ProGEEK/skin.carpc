@@ -147,7 +147,7 @@
 			<posy>205</posy>
 			<width>550</width>
 			<height>550</height>
-			<texture>mitsubishi-logo2.png</texture>
+			<texture>ford-logo2.png</texture>
 		</control>
 
 		<control type="group">

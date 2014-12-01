@@ -41,7 +41,7 @@
 				<width>500</width>
 				<height>96</height>
 				<aspectratio align="left">keep</aspectratio>
-				<texture>mitsubishi-logo.png</texture>
+				<texture>ford-logo.png</texture>
 			</control>
 			<control type="button">
 				<posx>1</posx>
