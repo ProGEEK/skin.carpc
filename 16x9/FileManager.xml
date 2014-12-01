@@ -11,7 +11,7 @@
 				<posy>0</posy>
 				<width>620</width>
 				<height>720</height>
-				<texture border="0,0,15,0">MediaBladeSub.png</texture>
+				<texture border="0,0,15,0">mediabladesub.png</texture>
 			</control>
 			<control type="image">
 				<posx>480</posx>
@@ -64,9 +64,9 @@
 				<posy>140</posy>
 				<width>25</width>
 				<height>490</height>
-				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">scrollbarv_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">scrollbarv_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>-</textureslidernib>
 				<textureslidernibfocus>-</textureslidernibfocus>
 				<onleft>31</onleft>
@@ -93,7 +93,7 @@
 						<posy>0</posy>
 						<width>540</width>
 						<height>36</height>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
+						<texture border="0,2,0,2">menuitemnf.png</texture>
 					</control>
 					<control type="label">
 						<posx>0</posx>
@@ -127,7 +127,7 @@
 						<width>540</width>
 						<height>36</height>
 						<visible>!Control.HasFocus(20)</visible>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
+						<texture border="0,2,0,2">menuitemnf.png</texture>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -135,7 +135,7 @@
 						<width>540</width>
 						<height>36</height>
 						<visible>Control.HasFocus(20)</visible>
-						<texture border="0,2,0,2">MenuItemFO.png</texture>
+						<texture border="0,2,0,2">menuitemfo.png</texture>
 					</control>
 					<control type="label">
 						<posx>0</posx>
@@ -172,7 +172,7 @@
 				<posy>0</posy>
 				<width>620</width>
 				<height>720</height>
-				<texture border="15,0,0,0" flipx="true">MediaBladeSub.png</texture>
+				<texture border="15,0,0,0" flipx="true">mediabladesub.png</texture>
 			</control>
 			<control type="image">
 				<posx>570r</posx>
@@ -224,9 +224,9 @@
 				<posy>140</posy>
 				<width>25</width>
 				<height>490</height>
-				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">scrollbarv_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">scrollbarv_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>-</textureslidernib>
 				<textureslidernibfocus>-</textureslidernibfocus>
 				<onleft>21</onleft>
@@ -253,7 +253,7 @@
 						<posy>0</posy>
 						<width>540</width>
 						<height>36</height>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
+						<texture border="0,2,0,2">menuitemnf.png</texture>
 					</control>
 					<control type="label">
 						<posx>0</posx>
@@ -287,7 +287,7 @@
 						<width>540</width>
 						<height>36</height>
 						<visible>!Control.HasFocus(21)</visible>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
+						<texture border="0,2,0,2">menuitemnf.png</texture>
 					</control>
 					<control type="image">
 						<posx>0</posx>
@@ -295,7 +295,7 @@
 						<width>540</width>
 						<height>36</height>
 						<visible>Control.HasFocus(21)</visible>
-						<texture border="0,2,0,2">MenuItemFO.png</texture>
+						<texture border="0,2,0,2">menuitemfo.png</texture>
 					</control>
 					<control type="label">
 						<posx>0</posx>

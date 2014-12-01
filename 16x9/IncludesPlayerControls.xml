@@ -39,7 +39,7 @@
 				<posy>0</posy>
 				<width>ScreenWidth</width>
 				<height>200</height>
-				<texture border="5">DialogBack.png</texture>
+				<texture border="5">dialogback.png</texture>
 			</control>
 			<control type="group">
 				<control type="group">
@@ -52,7 +52,7 @@
 						<height>180</height>
 						<info>VideoPlayer.Cover</info>
 						<aspectratio align="right">keep</aspectratio>
-						<bordertexture>ThumbBorderGrey.png</bordertexture>
+						<bordertexture>thumbbordergrey.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 					<control type="label">
@@ -142,7 +142,7 @@
 						<height>180</height>
 						<info>VideoPlayer.Cover</info>
 						<aspectratio>keep</aspectratio>
-						<bordertexture>ThumbBorderGrey.png</bordertexture>
+						<bordertexture>thumbbordergrey.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 					<control type="label">
@@ -232,7 +232,7 @@
 						<height>180</height>
 						<info>VideoPlayer.Cover</info>
 						<aspectratio>scale</aspectratio>
-						<bordertexture>ThumbBorderGrey.png</bordertexture>
+						<bordertexture>thumbbordergrey.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 					<control type="label">
@@ -422,9 +422,9 @@
 				<height>20</height>
  				<info>Player.Volume</info>
 				<action>Volume</action>
-				<texturesliderbar>OSDProgressBack2.png</texturesliderbar>
-				<textureslidernib>OSDSliderNib.png</textureslidernib>
-				<textureslidernibfocus>OSDSliderNib.png</textureslidernibfocus>
+				<texturesliderbar>osdprogressback2.png</texturesliderbar>
+				<textureslidernib>osdslidernib.png</textureslidernib>
+				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
 			</control>
 			<control type="image">
 				<posx>390</posx>
@@ -499,8 +499,8 @@
 				<texturefocus border="5">floor_buttonfo.png</texturefocus>
 				<label>31008</label>
 				<onclick>fullscreen</onclick>
-				<textureradioon>GoFullscreen.png</textureradioon>
-				<textureradiooff>GoFullscreen.png</textureradiooff>
+				<textureradioon>gofullscreen.png</textureradioon>
+				<textureradiooff>gofullscreen.png</textureradiooff>
 				<visible>!Window.IsVisible(Visualisation) + !Window.IsVisible(FullScreenVideo) + !Window.IsVisible(Karaoke)</visible>
 			</control>
 			<control type="radiobutton">
@@ -519,8 +519,8 @@
 				<onclick>Dialog.Close(VideoOSD,true)</onclick>
 				<onclick>Dialog.Close(MusicOSD,true)</onclick>
 				<onclick>fullscreen</onclick>
-				<textureradioon flipx="true" flipy="true">GoFullscreen.png</textureradioon>
-				<textureradiooff flipx="true" flipy="true">GoFullscreen.png</textureradiooff>
+				<textureradioon flipx="true" flipy="true">gofullscreen.png</textureradioon>
+				<textureradiooff flipx="true" flipy="true">gofullscreen.png</textureradiooff>
 				<visible>Window.IsVisible(Visualisation) | Window.IsVisible(FullScreenVideo) + !Window.IsVisible(Karaoke)</visible>
 			</control>
 		</control>
@@ -585,7 +585,7 @@
 				<width>880</width>
 				<height>32</height>
 				<info>Player.ProgressCache</info>
-				<midtexture border="16,0,16,0">OSDProgressMidLight.png</midtexture>
+				<midtexture border="16,0,16,0">osdprogressmidlight.png</midtexture>
 			</control -->
 			<control type="progress">
 				<description>Progressbar</description>
@@ -594,8 +594,8 @@
 				<width>1306</width>
 				<height>20</height>
 				<info>Player.Progress</info>
-				<texturebg flipy="true" border="10,0,10,0">HeaderProgressBack.png</texturebg>
-				<midtexture flipy="true" border="10,0,10,0">HeaderProgressFront.png</midtexture>
+				<texturebg flipy="true" border="10,0,10,0">headerprogressback.png</texturebg>
+				<midtexture flipy="true" border="10,0,10,0">headerprogressfront.png</midtexture>
 			</control>
 			<control type="slider" id="87">
 				<description>Seek Slider</description>
@@ -604,9 +604,9 @@
 				<width>1306</width>
 				<height>30</height>
 				<action>seek</action>
-				<texturesliderbar>OSDProgressBack2.png</texturesliderbar>
-				<textureslidernib>OSDSliderNib.png</textureslidernib>
-				<textureslidernibfocus>OSDSliderNib.png</textureslidernibfocus>
+				<texturesliderbar>osdprogressback2.png</texturesliderbar>
+				<textureslidernib>osdslidernib.png</textureslidernib>
+				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
 			</control>
 		</control>
 		<control type="group">
@@ -633,7 +633,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatNF.png</texture>
+				<texture>osdrepeatnf.png</texture>
 				<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 				<visible>!Control.HasFocus(606)</visible>
 			</control>
@@ -642,7 +642,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatFO.png</texture>
+				<texture>osdrepeatfo.png</texture>
 				<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 				<visible>Control.HasFocus(606)</visible>
 			</control>
@@ -651,7 +651,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatOneNF.png</texture>
+				<texture>osdrepeatonenf.png</texture>
 				<visible>Playlist.IsRepeatOne</visible>
 				<visible>!Control.HasFocus(606)</visible>
 			</control>
@@ -660,7 +660,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatOneFO.png</texture>
+				<texture>osdrepeatonefo.png</texture>
 				<visible>Playlist.IsRepeatOne</visible>
 				<visible>Control.HasFocus(606)</visible>
 			</control>
@@ -669,7 +669,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatAllNF.png</texture>
+				<texture>osdrepeatallnf.png</texture>
 				<visible>Playlist.IsRepeat</visible>
 				<visible>!Control.HasFocus(606)</visible>
 			</control>
@@ -678,7 +678,7 @@
 				<posy>0</posy>
 				<width>120</width>
 				<height>120</height>
-				<texture>OSDRepeatAllFO.png</texture>
+				<texture>osdrepeatallfo.png</texture>
 				<visible>Playlist.IsRepeat</visible>
 				<visible>Control.HasFocus(606)</visible>
 			</control>
@@ -689,11 +689,11 @@
 				<height>120</height>
 				<label>$LOCALIZE[590]$INFO[Playlist.Random, : ]</label>
 				<font>-</font>
-				<texturefocus>OSDRandomOffFO.png</texturefocus>
-				<texturenofocus>OSDRandomOffNF.png</texturenofocus>
+				<texturefocus>osdrandomofffo.png</texturefocus>
+				<texturenofocus>osdrandomoffnf.png</texturenofocus>
 				<usealttexture>Playlist.IsRandom</usealttexture>
-				<alttexturefocus>OSDRandomOnFO.png</alttexturefocus>
-				<alttexturenofocus>OSDRandomOnNF.png</alttexturenofocus>
+				<alttexturefocus>osdrandomonfo.png</alttexturefocus>
+				<alttexturenofocus>osdrandomonnf.png</alttexturenofocus>
 				<onclick>XBMC.PlayerControl(Random)</onclick>
 				<onleft>606</onleft>
 				<onright>701</onright>
@@ -728,8 +728,8 @@
 				<height>80</height>
 				<label>210</label>
 				<font>-</font>
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onleft>705</onleft>
 				<onright>601</onright>
 				<onup>1000</onup>
@@ -743,8 +743,8 @@
 				<height>80</height>
 				<label>31354</label>
 				<font>-</font>
-				<texturefocus>OSDRewindFO.png</texturefocus>
-				<texturenofocus>OSDRewindNF.png</texturenofocus>
+				<texturefocus>osdrewindfo.png</texturefocus>
+				<texturenofocus>osdrewindnf.png</texturenofocus>
 				<onleft>600</onleft>
 				<onright>602</onright>
 				<onup>1000</onup>
@@ -759,11 +759,11 @@
 				<label>31351</label>
 				<altlabel>208</altlabel>
 				<font>-</font>
-				<texturefocus>OSDPauseFO.png</texturefocus>
-				<texturenofocus>OSDPauseNF.png</texturenofocus>
+				<texturefocus>osdpausefo.png</texturefocus>
+				<texturenofocus>osdpausenf.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+				<alttexturefocus>osdplayfo.png</alttexturefocus>
+				<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 				<onleft>601</onleft>
 				<onright>603</onright>
 				<onup>1000</onup>
@@ -777,8 +777,8 @@
 				<height>80</height>
 				<label>31352</label>
 				<font>-</font>
-				<texturefocus>OSDStopFO.png</texturefocus>
-				<texturenofocus>OSDStopNF.png</texturenofocus>
+				<texturefocus>osdstopfo.png</texturefocus>
+				<texturenofocus>osdstopnf.png</texturenofocus>
 				<onleft>602</onleft>
 				<onright>604</onright>
 				<onup>1000</onup>
@@ -792,8 +792,8 @@
 				<height>80</height>
 				<label>31353</label>
 				<font>-</font>
-				<texturefocus>OSDForwardFO.png</texturefocus>
-				<texturenofocus>OSDForwardNF.png</texturenofocus>
+				<texturefocus>osdforwardfo.png</texturefocus>
+				<texturenofocus>osdforwardnf.png</texturenofocus>
 				<onleft>603</onleft>
 				<onright>605</onright>
 				<onup>1000</onup>
@@ -807,8 +807,8 @@
 				<height>80</height>
 				<label>209</label>
 				<font>-</font>
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<onleft>604</onleft>
 				<onright>701</onright>
 				<onup>1000</onup>
@@ -827,7 +827,7 @@
 				<width>90</width>
 				<height>170</height>
 				<colordiffuse>EEFFFFFF</colordiffuse>
-				<texture border="3">PlayerControls-Background.png</texture>
+				<texture border="3">PlayerControls-background.png</texture>
 			</control>
 			<control type="label">
 				<description>header label</description>
@@ -931,7 +931,7 @@
 					<posy>-30</posy>
 					<width>380</width>
 					<height>320</height>
-					<texture border="30">ShadowBorder.png</texture>
+					<texture border="30">shadowborder.png</texture>
 				</control>
 				<control type="button">
 					<description>Panel Background image</description>
@@ -939,8 +939,8 @@
 					<posy>0</posy>
 					<width>320</width>
 					<height>260</height>
-					<texturefocus border="5">SubBack.png</texturefocus>
-					<texturenofocus border="5">SubBack.png</texturenofocus>
+					<texturefocus border="5">subback.png</texturefocus>
+					<texturenofocus border="5">subback.png</texturenofocus>
 					<onclick>noop</onclick>
 				</control>
 				<control type="image">
@@ -949,7 +949,7 @@
 					<posy>10</posy>
 					<width>300</width>
 					<height>234</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>

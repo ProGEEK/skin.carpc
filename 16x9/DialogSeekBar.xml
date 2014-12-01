@@ -12,7 +12,7 @@
 				<posy>-5</posy>
 				<width>315</width>
 				<height>69</height>
-				<texture border="8">DialogHeader.png</texture>
+				<texture border="8">dialogheader.png</texture>
 			</control>
 			<control type="label">
 				<description>Playing Label</description>
@@ -150,7 +150,7 @@
 				<width>300</width>
 				<height>15</height>
 				<info>Player.ProgressCache</info>
-				<midtexture border="16,0,16,0">OSDProgressMidLight.png</midtexture>
+				<midtexture border="16,0,16,0">osdprogressmidlight.png</midtexture>
 				<visible>true</visible>
 			</control>
 			<control type="progress" id="23">
@@ -160,7 +160,7 @@
 				<width>300</width>
 				<height>15</height>
 				<info>Player.Progress</info>
-				<texturebg border="16,0,16,0">OSDProgressBack2.png</texturebg>
+				<texturebg border="16,0,16,0">osdprogressback2.png</texturebg>
 				<visible>true</visible>
 			</control>
 			<control type="slider" id="401">

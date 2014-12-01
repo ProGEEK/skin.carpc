@@ -59,9 +59,9 @@
 	<default type="progress">
 		<posx>100</posx>
 		<posy>325</posy>
-		<texturebg border="16,0,16,0">OSDProgressBack.png</texturebg>
+		<texturebg border="16,0,16,0">osdprogressback.png</texturebg>
 		<lefttexture>-</lefttexture>
-		<midtexture border="16,0,16,0">OSDProgressMid.png</midtexture>
+		<midtexture border="16,0,16,0">osdprogressmid.png</midtexture>
 		<righttexture>-</righttexture>
 		<overlaytexture>-</overlaytexture>
 		<reveal>true</reveal>
@@ -71,10 +71,10 @@
 		<posy>126</posy>
 		<spinwidth>45</spinwidth>
 		<spinheight>45</spinheight>
-		<textureup>Select_Up.png</textureup>
-		<texturedown>Select_Down.png</texturedown>
-		<textureupfocus>Select_Up.png</textureupfocus>
-		<texturedownfocus>Select_Down.png</texturedownfocus>
+		<textureup>select_up.png</textureup>
+		<texturedown>select_down.png</texturedown>
+		<textureupfocus>select_up.png</textureupfocus>
+		<texturedownfocus>select_down.png</texturedownfocus>
 		<align>right</align>
 		<width>33</width>
 		<height>22</height>
@@ -97,10 +97,10 @@
 		<spinheight>45</spinheight>
 		<texturefocus>button-focus.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
-		<textureup>Select_Up.png</textureup>
-		<texturedown>Select_Down.png</texturedown>
-		<textureupfocus>Select_Up.png</textureupfocus>
-		<texturedownfocus>Select_Down.png</texturedownfocus>
+		<textureup>select_up.png</textureup>
+		<texturedown>select_down.png</texturedown>
+		<textureupfocus>select_up.png</textureupfocus>
+		<texturedownfocus>select_down.png</texturedownfocus>
 		<font>font13</font>
 		<textcolor>white</textcolor>
 		<disabledcolor>grey3</disabledcolor>
@@ -160,7 +160,7 @@
 		<sliderwidth>250</sliderwidth>
 		<sliderheight>20</sliderheight>
 		<texturesliderbar>osd_slider_bg.png</texturesliderbar>
-		<textureslidernib>osd_slider_nibNF.png</textureslidernib>
+		<textureslidernib>osd_slider_nibnf.png</textureslidernib>
 		<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 		<font>font12</font>
 		<textcolor>white</textcolor>

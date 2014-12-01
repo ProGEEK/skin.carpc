@@ -49,8 +49,8 @@
 					<posy>0</posy>
 					<width>550</width>
 					<height>720</height>
-					<texture border="5">SubBack.png</texture>
-					<bordertexture border="20">ShadowBorder2.png</bordertexture>
+					<texture border="5">subback.png</texture>
+					<bordertexture border="20">shadowborder2.png</bordertexture>
 					<bordersize>20</bordersize>
 				</control>
 				<control type="image">
@@ -60,7 +60,7 @@
 					<height>90</height>
 					<aspectratio>stretch</aspectratio>
 					<colordiffuse>99FFFFFF</colordiffuse>
-					<texture>GlassTitleBar.png</texture>
+					<texture>glasstitlebar.png</texture>
 				</control>
 				<control type="label">
 					<description>header label</description>
@@ -317,7 +317,7 @@
 					<posy>0</posy>
 					<width>600</width>
 					<height>720</height>
-					<texture border="20">ShadowBorder2.png</texture>
+					<texture border="20">shadowborder2.png</texture>
 				</control>
 				<control type="panel" id="50">
 					<posx>20</posx>
@@ -337,7 +337,7 @@
 							<posy>0</posy>
 							<width>560</width>
 							<height>170</height>
-							<texture border="5">SubBack.png</texture>
+							<texture border="5">subback.png</texture>
 						</control>
 						<control type="image">
 							<posx>300</posx>
@@ -407,7 +407,7 @@
 							<posy>0</posy>
 							<width>560</width>
 							<height>170</height>
-							<texture border="5">SubBack.png</texture>
+							<texture border="5">subback.png</texture>
 						</control>
 						<control type="image">
 							<posx>300</posx>

@@ -31,7 +31,7 @@
 				<posy>0</posy>
 				<width>670</width>
 				<height>210</height>
-				<texture border="20">OverlayDialogBackground.png</texture>
+				<texture border="20">overlaydialogbackground.png</texture>
 				<visible>!System.HasAlarm(shutdowntimer)</visible>
 			</control>
 			<control type="image">
@@ -39,7 +39,7 @@
 				<posy>0</posy>
 				<width>670</width>
 				<height>235</height>
-				<texture border="20">OverlayDialogBackground.png</texture>
+				<texture border="20">overlaydialogbackground.png</texture>
 				<visible>System.HasAlarm(shutdowntimer)</visible>
 			</control>
 			<control type="image">
@@ -48,7 +48,7 @@
 				<width>650</width>
 				<height>60</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>GlassTitleBar.png</texture>
+				<texture>glasstitlebar.png</texture>
 			</control>
 			<control type="button">
 				<description>Close Window button</description>
@@ -60,7 +60,7 @@
 				<font>-</font>
 				<onclick>Back</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
-				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<texturenofocus>dialogclosebutton.png</texturenofocus>
 				<onleft>13</onleft>
 				<onright>13</onright>
 				<onup>13</onup>
@@ -86,7 +86,7 @@
 				<width>650</width>
 				<height>100</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>GlassTitleBar.png</texture>
+				<texture>glasstitlebar.png</texture>
 				<colordiffuse>99FFFFFF</colordiffuse>
 			</control>
 			<control type="grouplist">
@@ -102,11 +102,11 @@
 					<height>90</height>
 					<label>20046</label>
 					<altlabel>20045</altlabel>
-					<texturefocus>ButtonMenuMasterFO.png</texturefocus>
-					<texturenofocus>ButtonMenuMasterNF.png</texturenofocus>
+					<texturefocus>buttonmenumasterfo.png</texturefocus>
+					<texturenofocus>buttonmenumasternf.png</texturenofocus>
 					<usealttexture>!System.IsMaster</usealttexture>
-					<alttexturefocus>ButtonMenuNoMasterFO.png</alttexturefocus>
-					<alttexturenofocus>ButtonMenuNoMasterNF.png</alttexturenofocus>
+					<alttexturefocus>buttonmenunomasterfo.png</alttexturefocus>
+					<alttexturenofocus>buttonmenunomasternf.png</alttexturenofocus>
 					<onclick>xbmc.mastermode</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>-</font>
@@ -116,8 +116,8 @@
 					<description>LogOff Profile</description>
 					<width>90</width>
 					<height>90</height>
-					<texturefocus>ButtonMenuLogOffFO.png</texturefocus>
-					<texturenofocus>ButtonMenuLogOffNF.png</texturenofocus>
+					<texturefocus>buttonmenulogofffo.png</texturefocus>
+					<texturenofocus>buttonmenulogoffnf.png</texturenofocus>
 					<onclick>dialog.close(all,true)</onclick>
 					<onclick>System.LogOff</onclick>
 					<pulseonselect>no</pulseonselect>
@@ -130,8 +130,8 @@
 					<description>Exit xbmc</description>
 					<width>90</width>
 					<height>90</height>
-					<texturefocus>ButtonMenuExitFO.png</texturefocus>
-					<texturenofocus>ButtonMenuExitNF.png</texturenofocus>
+					<texturefocus>buttonmenuexitfo.png</texturefocus>
+					<texturenofocus>buttonmenuexitnf.png</texturenofocus>
 					<onclick>XBMC.Quit()</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>-</font>
@@ -182,7 +182,7 @@
 						<width>90</width>
 						<height>90</height>
 						<texturefocus>-</texturefocus>
-						<texturenofocus>ButtonMenuShutdownNF.png</texturenofocus>
+						<texturenofocus>buttonmenushutdownnf.png</texturenofocus>
 						<onclick>XBMC.Powerdown()</onclick>
 						<pulseonselect>no</pulseonselect>
 						<font>-</font>
@@ -198,7 +198,7 @@
 						<posy>0</posy>
 						<width>90</width>
 						<height>90</height>
-						<texture>ButtonMenuShutdownFO.png</texture>
+						<texture>buttonmenushutdownfo.png</texture>
 						<visible>Control.HasFocus(15) | Control.HasFocus(16) | Control.HasFocus(17)</visible>
 					</control>
 				</control>
@@ -206,8 +206,8 @@
 					<description>Suspend xbmc</description>
 					<width>90</width>
 					<height>90</height>
-					<texturefocus>ButtonMenuSleepFO.png</texturefocus>
-					<texturenofocus>ButtonMenuSleepNF.png</texturenofocus>
+					<texturefocus>buttonmenusleepfo.png</texturefocus>
+					<texturenofocus>buttonmenusleepnf.png</texturenofocus>
 					<onclick>XBMC.Suspend()</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>-</font>
@@ -217,8 +217,8 @@
 					<description>Reboot button</description>
 					<width>90</width>
 					<height>90</height>
-					<texturefocus>ButtonMenuRestartFO.png</texturefocus>
-					<texturenofocus>ButtonMenuRestartNF.png</texturenofocus>
+					<texturefocus>buttonmenurestartfo.png</texturefocus>
+					<texturenofocus>buttonmenurestartnf.png</texturenofocus>
 					<onclick>XBMC.Reset()</onclick>
 					<pulseonselect>no</pulseonselect>
 					<font>-</font>
@@ -238,7 +238,7 @@
 					<posy>0</posy>
 					<width>20</width>
 					<height>15</height>
-					<texture>ArrowUp.png</texture>
+					<texture>arrowup.png</texture>
 				</control>
 				<control type="image">
 					<description>Shutdown Arrow Down image</description>
@@ -246,7 +246,7 @@
 					<posy>107</posy>
 					<width>20</width>
 					<height>15</height>
-					<texture>ArrowDown.png</texture>
+					<texture>arrowdown.png</texture>
 				</control>
 			</control>
 			<control type="label">

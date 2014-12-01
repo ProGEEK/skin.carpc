@@ -17,7 +17,7 @@
 				<posy>0</posy>
 				<width>1000</width>
 				<height>60</height>
-				<texture border="5">DialogHeader.png</texture>
+				<texture border="5">dialogheader.png</texture>
 			</control>
 			<control type="label">
 				<description>header label</description>
@@ -37,7 +37,7 @@
 				<posy>60</posy>
 				<width>1000</width>
 				<height>460</height>
-				<texture border="5">DialogBack.png</texture>
+				<texture border="5">dialogback.png</texture>
 			</control>
 			<control type="label">
 				<description>Song Title value</description>
@@ -59,7 +59,7 @@
 				<height>250</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture>$INFO[ListItem.Icon]</texture>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 			</control>
 			<control type="group">
@@ -216,8 +216,8 @@
 						<width>45</width>
 						<height>45</height>
 						<onclick>DecreaseRating</onclick>
-						<texturenofocus>Select_Down.png</texturenofocus>
-						<texturefocus>Select_Down.png</texturefocus>
+						<texturenofocus>select_down.png</texturenofocus>
+						<texturefocus>select_down.png</texturefocus>
 						<onleft>9000</onleft>
 						<onright>15</onright>
 						<ondown>14</ondown>
@@ -230,8 +230,8 @@
 						<width>45</width>
 						<height>45</height>
 						<onclick>IncreaseRating</onclick>
-						<texturenofocus>Select_Up.png</texturenofocus>
-						<texturefocus>Select_Up.png</texturefocus>
+						<texturenofocus>select_up.png</texturenofocus>
+						<texturefocus>select_up.png</texturefocus>
 						<onleft>14</onleft>
 						<onright>15</onright>
 						<ondown>15</ondown>

@@ -9,7 +9,7 @@
 				<posy>0</posy>
 				<width>490</width>
 				<height>80</height>
-				<texture border="8">IconBack.png</texture>
+				<texture border="8">iconback.png</texture>
 			</control>
 			<control type="image" id="400">
 				<description>Icon</description>
@@ -18,7 +18,7 @@
 				<width>60</width>
 				<height>60</height>
 				<aspectratio>keep</aspectratio>
-				<texture>DefaultFile.png</texture>
+				<texture>defaultfile.png</texture>
 			</control>
 			<control type="fadelabel" id="401">
 				<description>Line 1 Label</description>
@@ -51,7 +51,7 @@
 				<height>60</height>
 				<aspectratio>keep</aspectratio>
 				<visible>false</visible>
-				<texture>DefaultIconInfo.png</texture>
+				<texture>defaulticoninfo.png</texture>
 			</control>
 			<control type="image" id="404">
 				<description>avatar</description>
@@ -61,7 +61,7 @@
 				<height>60</height>
 				<aspectratio>keep</aspectratio>
 				<visible>false</visible>
-				<texture>DefaultIconWarning.png</texture>
+				<texture>defaulticonwarning.png</texture>
 			</control>
 			<control type="image" id="405">
 				<description>avatar</description>
@@ -71,7 +71,7 @@
 				<height>60</height>
 				<aspectratio>keep</aspectratio>
 				<visible>false</visible>
-				<texture>DefaultIconError.png</texture>
+				<texture>defaulticonerror.png</texture>
 			</control>
 		</control>
 	</controls>

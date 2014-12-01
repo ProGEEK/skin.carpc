@@ -14,7 +14,7 @@
 			<posy>0</posy>
 			<width>1000</width>
 			<height>60</height>
-			<texture border="5">DialogHeader.png</texture>
+			<texture border="5">dialogheader.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -35,7 +35,7 @@
 			<posy>60</posy>
 			<width>1000</width>
 			<height>840</height>
-			<texture border="5">DialogBack.png</texture>
+			<texture border="5">dialogback.png</texture>
 		</control>
 		<control type="image">
 			<posx>0</posx>
@@ -58,7 +58,7 @@
 				<width>240</width>
 				<height>330</height>
 				<aspectratio>keep</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
@@ -259,7 +259,7 @@
 				<width>960</width>
 				<height>140</height>
 				<aspectratio>keep</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<texture background="true">$VAR[BannerThumb]</texture>
 			</control>
@@ -407,7 +407,7 @@
 				<width>450</width>
 				<height>330</height>
 				<aspectratio>scale</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
@@ -602,7 +602,7 @@
 				<width>450</width>
 				<height>330</height>
 				<aspectratio>scale</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
@@ -802,7 +802,7 @@
 					<aspectratio>keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">ThumbBorderGrey.png</bordertexture>
+					<bordertexture border="5">thumbbordergrey.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="textbox">
@@ -832,7 +832,7 @@
 					<aspectratio>keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture>$INFO[ListItem.Icon]</texture>
-					<bordertexture border="5">ThumbBorderGrey.png</bordertexture>
+					<bordertexture border="5">thumbbordergrey.png</bordertexture>
 					<bordersize>2</bordersize>
 				</control>
 				<control type="textbox">
@@ -878,7 +878,7 @@
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>208</label>
 				<alttexturefocus border="5">IconBack-focus.png</alttexturefocus>
-				<alttexturenofocus border="5">ListNF.png</alttexturenofocus>
+				<alttexturenofocus border="5">listnf.png</alttexturenofocus>
 				<altlabel>1024</altlabel>
 				<usealttexture>Container.Content(TVShows)</usealttexture>
 			</control>

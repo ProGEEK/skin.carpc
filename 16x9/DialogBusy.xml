@@ -25,7 +25,7 @@
 				<posy>0</posy>
 				<width>300</width>
 				<height>100</height>
-				<texture border="20">OverlayDialogBackground.png</texture>
+				<texture border="20">overlaydialogbackground.png</texture>
 			</control>
 			<control type="image">
 				<description>Busy animation</description>

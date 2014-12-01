@@ -44,7 +44,7 @@
 						<posy>0</posy>
 						<width>690</width>
 						<height>110</height>
-						<texture border="5">SubBack.png</texture>
+						<texture border="5">subback.png</texture>
 					</control>
 					<control type="image">
 						<posx>10</posx>
@@ -84,7 +84,7 @@
 						<posy>0</posy>
 						<width>690</width>
 						<height>110</height>
-						<texture border="5">SubBack2.png</texture>
+						<texture border="5">subback2.png</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">

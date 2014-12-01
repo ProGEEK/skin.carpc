@@ -19,7 +19,7 @@
 					<posy>5</posy>
 					<width>765</width>
 					<height>235</height>
-					<texture border="5">SubBack.png</texture>
+					<texture border="5">subback.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
@@ -33,7 +33,7 @@
 					<posy>5</posy>
 					<width>250</width>
 					<height>235</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="label">
 					<posx>170</posx>
@@ -93,7 +93,7 @@
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
-					<texture>OverlayWatching.png</texture>
+					<texture>overlaywatching.png</texture>
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
@@ -121,7 +121,7 @@
 					<posy>5</posy>
 					<width>765</width>
 					<height>235</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
@@ -135,7 +135,7 @@
 					<posy>5</posy>
 					<width>250</width>
 					<height>235</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="label">
 					<posx>170</posx>
@@ -195,7 +195,7 @@
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
-					<texture>OverlayWatching.png</texture>
+					<texture>overlaywatching.png</texture>
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
@@ -223,7 +223,7 @@
 					<posy>5</posy>
 					<width>765</width>
 					<height>235</height>
-					<texture border="5">SubBack.png</texture>
+					<texture border="5">subback.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
@@ -238,7 +238,7 @@
 					<posy>5</posy>
 					<width>250</width>
 					<height>235</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="textbox">
 					<posx>270</posx>
@@ -308,7 +308,7 @@
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
-					<texture>OverlayWatching.png</texture>
+					<texture>overlaywatching.png</texture>
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
@@ -326,7 +326,7 @@
 					<posy>5</posy>
 					<width>765</width>
 					<height>235</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
@@ -341,7 +341,7 @@
 					<posy>5</posy>
 					<width>250</width>
 					<height>235</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="textbox">
 					<posx>270</posx>
@@ -411,7 +411,7 @@
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
-					<texture>OverlayWatching.png</texture>
+					<texture>overlaywatching.png</texture>
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
@@ -446,7 +446,7 @@
 					<posy>5</posy>
 					<width>1530</width>
 					<height>134</height>
-					<texture border="5">SubBack.png</texture>
+					<texture border="5">subback.png</texture>
 				</control>
 				<control type="image">
 					<posx>10</posx>
@@ -461,7 +461,7 @@
 					<posy>5</posy>
 					<width>200</width>
 					<height>134</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="label">
 					<posx>630</posx>
@@ -502,7 +502,7 @@
 					<posy>5</posy>
 					<width>1530</width>
 					<height>134</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<posx>10</posx>
@@ -517,7 +517,7 @@
 					<posy>5</posy>
 					<width>200</width>
 					<height>134</height>
-					<texture>GlassOverlay.png</texture>
+					<texture>glassoverlay.png</texture>
 				</control>
 				<control type="label">
 					<posx>630</posx>

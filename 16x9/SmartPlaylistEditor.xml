@@ -18,7 +18,7 @@
 				<posy>0</posy>
 				<width>1000</width>
 				<height>60</height>
-				<texture border="5">DialogHeader.png</texture>
+				<texture border="5">dialogheader.png</texture>
 			</control>
 			<control type="label" id="2">
 				<description>header label</description>
@@ -38,7 +38,7 @@
 				<posy>60</posy>
 				<width>1000</width>
 				<height>840</height>
-				<texture border="5">DialogBack.png</texture>
+				<texture border="5">dialogback.png</texture>
 			</control>
 			<control type="spincontrolex" id="22">
 				<description>Set Playlist type</description>
@@ -49,8 +49,8 @@
 				<label>467</label>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus>MenuItemNF.png</texturefocus>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>menuitemnf.png</texturefocus>
+				<texturenofocus>menuitemnf.png</texturenofocus>
 				<onright>22</onright>
 				<onleft>22</onleft>
 				<onup>9001</onup>
@@ -76,8 +76,8 @@
 				<font>font13</font>
 				<textcolor>black</textcolor>
 				<align>center</align>
-				<texturefocus>MenuItemNF.png</texturefocus>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>menuitemnf.png</texturefocus>
+				<texturenofocus>menuitemnf.png</texturenofocus>
 				<label>-</label>
 				<onup>22</onup>
 				<onleft>12</onleft>
@@ -112,7 +112,7 @@
 						<posy>0</posy>
 						<width>740</width>
 						<height>51</height>
-						<texture border="5">MenuItemNF.png</texture>
+						<texture border="5">menuitemnf.png</texture>
 					</control>
 					<control type="label">
 						<posx>10</posx>
@@ -133,7 +133,7 @@
 						<posy>0</posy>
 						<width>740</width>
 						<height>51</height>
-						<texture border="5">MenuItemNF.png</texture>
+						<texture border="5">menuitemnf.png</texture>
 					</control>
 					<control type="label">
 						<posx>10</posx>
@@ -163,7 +163,7 @@
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<texturefocus border="5">IconBack-focus.png</texturefocus>
-					<texturenofocus border="5">ListNF.png</texturenofocus>
+					<texturenofocus border="5">listnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<onup>18</onup>
 					<onleft>60</onleft>
@@ -181,7 +181,7 @@
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<texturefocus border="5">IconBack-focus.png</texturefocus>
-					<texturenofocus border="5">ListNF.png</texturenofocus>
+					<texturenofocus border="5">listnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<onup>11</onup>
 					<onleft>60</onleft>
@@ -199,7 +199,7 @@
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<texturefocus border="5">IconBack-focus.png</texturefocus>
-					<texturenofocus border="5">ListNF.png</texturenofocus>
+					<texturenofocus border="5">listnf.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
 					<onup>13</onup>
 					<onleft>60</onleft>
@@ -227,8 +227,8 @@
 				<label>21424</label>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus>MenuItemNF.png</texturefocus>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>menuitemnf.png</texturefocus>
+				<texturenofocus>menuitemnf.png</texturenofocus>
 				<onright>16</onright>
 				<onleft>16</onleft>
 				<onup>10</onup>
@@ -243,8 +243,8 @@
 				<label>21427</label>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus>MenuItemNF.png</texturefocus>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>menuitemnf.png</texturefocus>
+				<texturenofocus>menuitemnf.png</texturenofocus>
 				<onright>17</onright>
 				<onleft>17</onleft>
 				<onup>16</onup>
@@ -259,8 +259,8 @@
 				<label>21429</label>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus>MenuItemNF.png</texturefocus>
-				<texturenofocus>MenuItemNF.png</texturenofocus>
+				<texturefocus>menuitemnf.png</texturefocus>
+				<texturenofocus>menuitemnf.png</texturenofocus>
 				<onright>19</onright>
 				<onleft>19</onleft>
 				<onup>17</onup>
@@ -276,9 +276,9 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<texturefocus border="5">IconBack-focus.png</texturefocus>
-				<texturenofocus border="5">ListNF.png</texturenofocus>
+				<texturenofocus border="5">listnf.png</texturenofocus>
 				<alttexturefocus border="5">IconBack-focus.png</alttexturefocus>
-				<alttexturenofocus border="5">ListNF.png</alttexturenofocus>
+				<alttexturenofocus border="5">listnf.png</alttexturenofocus>
 				<label>21431</label>
 				<altlabel>21430</altlabel>
 				<onright>18</onright>

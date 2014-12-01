@@ -16,7 +16,7 @@
 				<font>-</font>
                 <colordiffuse>00FFFFFF</colordiffuse>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturefocus border="5">floor_buttonfo.png</texturefocus>
 				<onclick>RunScript("special://skin/scripts/navigation_click.py")</onclick>
 			</control>
 		</control>-->

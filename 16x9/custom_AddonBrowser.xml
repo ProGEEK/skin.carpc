@@ -25,7 +25,7 @@
                 <posy>8</posy>
                 <width>1635</width>
                 <height>945</height>
-                <texture border="25">Settingspanel.png</texture>
+                <texture border="25">settingspanel.png</texture>
             </control-->
             <!--control type="button">
                 <description>Close Window button</description>
@@ -36,8 +36,8 @@
                 <label>-</label>
                 <font>-</font>
                 <onclick>PreviousMenu</onclick>
-                <texturefocus>DialogCloseButton-focus.png</texturefocus>
-                <texturenofocus>DialogCloseButton.png</texturenofocus>
+                <texturefocus>dialogclosebutton-focus.png</texturefocus>
+                <texturenofocus>dialogclosebutton.png</texturenofocus>
                 <onleft>1</onleft>
                 <onright>1</onright>
                 <onup>1</onup>
@@ -86,7 +86,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-nf.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
 						</control>
@@ -112,7 +112,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-fo.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7100)</visible>
 						</control>
@@ -125,7 +125,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-nf.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7100)</visible>
 						</control>
@@ -199,7 +199,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-nf.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
 						</control>
@@ -225,7 +225,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-fo.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7200)</visible>
 						</control>
@@ -238,7 +238,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-nf.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7200)</visible>
 						</control>
@@ -312,7 +312,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-nf.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible></visible>
 						</control>
@@ -338,7 +338,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-FO.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-fo.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>Control.HasFocus(7300)</visible>
 						</control>
@@ -351,7 +351,7 @@
 							<aspectratio>stretch</aspectratio>    
 							<alignx>center</alignx>
 							<aligny>bottom</aligny>
-							<bordertexture border="12">Frames-and-Borders/Border-NF.png</bordertexture>
+							<bordertexture border="12">frames-and-borders/border-no.png</bordertexture>
 							<bordersize>7</bordersize>
 							<visible>!Control.HasFocus(7300)</visible>
 						</control>
@@ -421,7 +421,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -457,7 +457,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_fo.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -468,7 +468,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -538,7 +538,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -574,7 +574,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_fo.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -585,7 +585,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -655,7 +655,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -691,7 +691,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_FO.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_fo.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>
@@ -702,7 +702,7 @@
 							<posy>0</posy>
 							<width>220</width>
 							<height>250</height>
-							<texture background="true" border="7">Frames-and-Borders/SpezBorder_NF.png</texture>
+							<texture background="true" border="7">frames-and-borders/spezborder_nf.png</texture>
 							<aspectratio>stretch</aspectratio>    
 							<bordertexture border="12"></bordertexture>
 							<bordersize>7</bordersize>

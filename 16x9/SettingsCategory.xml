@@ -82,8 +82,8 @@
 			<font>font13</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">ListFO.png</texturefocus>
-			<texturenofocus border="5">ListNF.png</texturenofocus>
+			<texturefocus border="5">listfo.png</texturefocus>
+			<texturenofocus border="5">listnf.png</texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -93,8 +93,8 @@
 			<font>font13</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">ListFO.png</texturefocus>
-			<texturenofocus border="5">ListNF.png</texturenofocus>
+			<texturefocus border="5">listfo.png</texturefocus>
+			<texturenofocus border="5">listnf.png</texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -104,8 +104,8 @@
 			<font>font13</font>
 			<textcolor>white</textcolor>
 			<focusedcolor>black</focusedcolor>
-			<texturefocus border="5">ListFO.png</texturefocus>
-			<texturenofocus border="5">ListNF.png</texturenofocus>
+			<texturefocus border="5">listfo.png</texturefocus>
+			<texturenofocus border="5">listnf.png</texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>

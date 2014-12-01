@@ -18,7 +18,7 @@
 					<posy>0</posy>
 					<width>1530</width>
 					<height>60</height>
-					<texture border="5">ListNF.png</texture>
+					<texture border="5">listnf.png</texture>
 				</control>
 				<control type="image">
 					<posx>10</posx>
@@ -80,7 +80,7 @@
 					<width>30</width>
 					<height>30</height>
 					<aspectratio>keep</aspectratio>
-					<texture>light/OverlayWatched.png</texture>
+					<texture>light/overlaywatched.png</texture>
 					<visible>stringcompare(ListItem.Label2,$LOCALIZE[305])</visible>
 				</control>
 			</itemlayout>
@@ -90,7 +90,7 @@
 					<posy>0</posy>
 					<width>1530</width>
 					<height>60</height>
-					<texture border="5">ListFO.png</texture>
+					<texture border="5">listfo.png</texture>
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="image">
@@ -153,7 +153,7 @@
 					<width>30</width>
 					<height>30</height>
 					<aspectratio>keep</aspectratio>
-					<texture>dark/OverlayWatched.png</texture>
+					<texture>dark/overlaywatched.png</texture>
 					<visible>stringcompare(ListItem.Label2,$LOCALIZE[305])</visible>
 				</control>
 			</focusedlayout>

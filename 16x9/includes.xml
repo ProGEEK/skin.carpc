@@ -103,7 +103,7 @@
                                 <height>100</height>
                                 <font>-</font>
                                 <texturenofocus border="5">floor_button_t.png</texturenofocus>
-                                <texturefocus border="5">floor_buttonFO.png</texturefocus>
+                                <texturefocus border="5">floor_buttonfo.png</texturefocus>
                                 <onclick>PlayDVD</onclick>
                         </control>
                         <control type="image">
@@ -414,9 +414,9 @@
 				<height>50</height>
  				<info>Player.Volume</info>
 				<action>Volume</action>
-				<texturesliderbar>OSDProgressBack2.png</texturesliderbar>
-				<textureslidernib>OSDSliderNib.png</textureslidernib>
-				<textureslidernibfocus>OSDSliderNib.png</textureslidernibfocus>
+				<texturesliderbar>osdprogressback2.png</texturesliderbar>
+				<textureslidernib>osdslidernib.png</textureslidernib>
+				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
 			</control>
 		</control>
 	</include>
@@ -452,8 +452,8 @@
 				<width>1306</width>
 				<height>12</height>
 				<info>Player.Progress</info>
-				<texturebg flipy="true" border="10,0,10,0">HeaderProgressBack.png</texturebg>
-				<midtexture flipy="true" border="10,0,10,0">HeaderProgressFront.png</midtexture>
+				<texturebg flipy="true" border="10,0,10,0">headerprogressback.png</texturebg>
+				<midtexture flipy="true" border="10,0,10,0">headerprogressfront.png</midtexture>
 			</control>
 			<control type="slider" id="87">
 				<description>Seek Slider</description>
@@ -462,9 +462,9 @@
 				<width>1306</width>
 				<height>20</height>
 				<action>seek</action>
-				<texturesliderbar>OSDProgressBack2.png</texturesliderbar>
-				<textureslidernib>OSDSliderNib.png</textureslidernib>
-				<textureslidernibfocus>OSDSliderNib.png</textureslidernibfocus>
+				<texturesliderbar>osdprogressback2.png</texturesliderbar>
+				<textureslidernib>osdslidernib.png</textureslidernib>
+				<textureslidernibfocus>osdslidernib.png</textureslidernibfocus>
 			</control>
 		</control>
 	</include>
@@ -518,8 +518,8 @@
 				<height>110</height>
 				<label>210</label>
 				<font>-</font>
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onleft>705</onleft>
 				<onright>601</onright>
 				<onup>1000</onup>
@@ -534,11 +534,11 @@
 				<label>31351</label>
 				<altlabel>208</altlabel>
 				<font>-</font>
-				<texturefocus>OSDPauseFO.png</texturefocus>
-				<texturenofocus>OSDPauseNF.png</texturenofocus>
+				<texturefocus>osdpausefo.png</texturefocus>
+				<texturenofocus>osdpausenf.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+				<alttexturefocus>osdplayfo.png</alttexturefocus>
+				<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 				<onleft>601</onleft>
 				<onright>603</onright>
 				<onup>1000</onup>
@@ -552,8 +552,8 @@
 				<height>110</height>
 				<label>31352</label>
 				<font>-</font>
-				<texturefocus>OSDStopFO.png</texturefocus>
-				<texturenofocus>OSDStopNF.png</texturenofocus>
+				<texturefocus>osdstopfo.png</texturefocus>
+				<texturenofocus>osdstopnf.png</texturenofocus>
 				<onleft>602</onleft>
 				<onright>604</onright>
 				<onup>1000</onup>
@@ -567,8 +567,8 @@
 				<height>110</height>
 				<label>209</label>
 				<font>-</font>
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<onleft>604</onleft>
 				<onright>701</onright>
 				<onup>1000</onup>
@@ -587,7 +587,7 @@
                                 <height>500</height>
                                 <info>MusicPlayer.Cover</info>
                                 <aspectratio>keep</aspectratio>
-                                <bordertexture>ThumbBorderGrey.png</bordertexture>
+                                <bordertexture>thumbbordergrey.png</bordertexture>
                                 <bordersize>2</bordersize>
                         </control>
                         <control type="label">
@@ -790,7 +790,7 @@
 			      <visible>true</visible>
 			      <pulseonselect>true</pulseonselect>
 			      <texturenofocus border="5">floor_button_t.png</texturenofocus>
-			      <texturefocus border="5">floor_buttonFO.png</texturefocus>
+			      <texturefocus border="5">floor_buttonfo.png</texturefocus>
 			      <onclick>PageUp(60)</onclick>
 			</control>
 			<control type="image">
@@ -810,7 +810,7 @@
 			      <visible>true</visible>
 			      <pulseonselect>true</pulseonselect>
 			      <texturenofocus border="5">floor_button_t.png</texturenofocus>
-			      <texturefocus border="5">floor_buttonFO.png</texturefocus>
+			      <texturefocus border="5">floor_buttonfo.png</texturefocus>
 			      <onclick>PageDown(60)</onclick>
 			</control>
 			<control type="image">
@@ -836,7 +836,7 @@
 				<posy>200</posy>
 				<width>50</width>
 				<height>320</height>
-				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
 				<texturesliderbar border="0,14,0,14">osdslidernib.png</texturesliderbar>
 				<texturesliderbarfocus border="0,14,0,14">osdslidernib.png</texturesliderbarfocus>
 				<textureslidernib></textureslidernib>
@@ -868,7 +868,7 @@
 				<height>100</height>
 				<font>-</font>
 				<texturenofocus border="5">floor_button_t.png</texturenofocus>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturefocus border="5">floor_buttonfo.png</texturefocus>
 				<onclick>ActivateWindow(Home)</onclick>
 			</control>
 			<control type="image">
@@ -896,7 +896,7 @@
 				<height>100</height>
 				<font>-</font>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturefocus border="5">floor_buttonfo.png</texturefocus>
 				<onclick>Skin.ToggleSetting(MediaSubMenuVisible)</onclick>
 			</control>
 			<control type="image">
@@ -967,7 +967,7 @@
 				<posy>0</posy>
 				<width>100</width>
 				<height>720</height>
-				<texture border="0,60,0,60">ScrollBarBackground_l.png</texture>
+				<texture border="0,60,0,60">scrollbarbackground_l.png</texture>
 				<colordiffuse>30FFFFFF</colordiffuse>
 			</control>
 			<control type="group" >
@@ -1233,8 +1233,8 @@
 		<font>font12</font>
 		<textcolor>grey2</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">HomeSubFO.png</texturefocus>
-		<texturenofocus border="5">HomeSubNF.png</texturenofocus>
+		<texturefocus border="5">homesubfo.png</texturefocus>
+		<texturenofocus border="5">homesubnf.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 		<textureradioon>HomeTab-focus.png</textureradioon>
 		<textureradiooff>-</textureradiooff>
@@ -1263,7 +1263,7 @@
 		<aligny>center</aligny>
 		<font>font12_title</font>
 		<texturefocus border="5">IconBack-focus.png</texturefocus>
-		<texturenofocus border="5">ListNF.png</texturenofocus>
+		<texturenofocus border="5">listnf.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="CommonNowPlaying">
@@ -1277,8 +1277,8 @@
 				<posy>0</posy>
 				<width>270</width>
 				<height>67</height>
-				<texturefocus border="8">IconBack.png</texturefocus>
-				<texturenofocus border="8">IconBack.png</texturenofocus>
+				<texturefocus border="8">iconback.png</texturefocus>
+				<texturenofocus border="8">iconback.png</texturenofocus>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
 			</control>
 			<control type="fadelabel">
@@ -1395,7 +1395,7 @@
 				<posy>0</posy>
 				<width>80</width>
 				<height>80</height>
-				<texture border="5">IconBack.png</texture>
+				<texture border="5">iconback.png</texture>
 			</control>
 			<control type="label">
 				<posx>0</posx>

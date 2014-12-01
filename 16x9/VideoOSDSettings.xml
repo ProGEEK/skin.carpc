@@ -14,21 +14,21 @@
 			<posy>-30</posy>
 			<width>860</width>
 			<height>860</height>
-			<texture border="30">DialogShadow.png</texture>
+			<texture border="30">dialogshadow.png</texture>
 		</control>
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>800</width>
 			<height>60</height>
-			<texture border="5">DialogHeader.png</texture>
+			<texture border="5">dialogheader.png</texture>
 		</control>
 		<control type="image">
 			<posx>0</posx>
 			<posy>60</posy>
 			<width>800</width>
 			<height>740</height>
-			<texture border="5">DialogBack.png</texture>
+			<texture border="5">dialogback.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -78,8 +78,8 @@
 		<control type="sliderex" id="10">
 			<description>Default Slider</description>
 			<height>55</height>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 			<font>font13</font>
 			<textcolor>black</textcolor>
 		</control>
@@ -90,8 +90,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -100,8 +100,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -110,8 +110,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>

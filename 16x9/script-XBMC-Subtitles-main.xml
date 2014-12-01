@@ -17,21 +17,21 @@
 				<posy>-30</posy>
 				<width>860</width>
 				<height>860</height>
-				<texture border="30">DialogShadow.png</texture>
+				<texture border="30">dialogshadow.png</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>810</width>
 				<height>60</height>
-				<texture border="5">DialogHeader.png</texture>
+				<texture border="5">dialogheader.png</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
 				<posy>60</posy>
 				<width>810</width>
 				<height>740</height>
-				<texture border="5">DialogBack.png</texture>
+				<texture border="5">dialogback.png</texture>
 			</control>
 			<control type="label">
 				<description>header label</description>
@@ -90,7 +90,7 @@
 						<control type="image">
 							<width>40</width>
 							<height>40</height>
-							<texture>DefaultIconInfo.png</texture>
+							<texture>defaulticoninfo.png</texture>
 						</control>
 						<control type="label">
 							<description>notification</description>
@@ -286,11 +286,11 @@
 					<posy>160</posy>
 					<width>29</width>
 					<height>540</height>
-					<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-					<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
-					<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
-					<textureslidernib>ScrollBarNib.png</textureslidernib>
-					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+					<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
+					<texturesliderbar border="0,14,0,14">scrollbarv_bar.png</texturesliderbar>
+					<texturesliderbarfocus border="0,14,0,14">scrollbarv_bar_focus.png</texturesliderbarfocus>
+					<textureslidernib>scrollbarnib.png</textureslidernib>
+					<textureslidernibfocus>scrollbarnib.png</textureslidernibfocus>
 					<onleft>3</onleft>
 					<onright>3</onright>
 					<ondown>60</ondown>
@@ -337,7 +337,7 @@
 					<posy>-30</posy>
 					<width>380</width>
 					<height>500</height>
-					<texture border="30">ShadowBorder.png</texture>
+					<texture border="30">shadowborder.png</texture>
 				</control>
 				<control type="button">
 					<description>Panel Background image</description>
@@ -345,8 +345,8 @@
 					<posy>0</posy>
 					<width>320</width>
 					<height>440</height>
-					<texturefocus border="5">SubBack.png</texturefocus>
-					<texturenofocus border="5">SubBack.png</texturenofocus>
+					<texturefocus border="5">subback.png</texturefocus>
+					<texturenofocus border="5">subback.png</texturenofocus>
 					<onclick>noop</onclick>
 				</control>
 				<control type="image">
@@ -355,7 +355,7 @@
 					<posy>40</posy>
 					<width>300</width>
 					<height>390</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>

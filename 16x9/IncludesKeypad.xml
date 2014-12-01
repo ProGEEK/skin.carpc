@@ -9,8 +9,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12311</label>
 			<textcolor>black</textcolor>
 			<onleft>23</onleft>
@@ -28,8 +28,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12312</label>
 			<textcolor>black</textcolor>
 			<onleft>11</onleft>
@@ -47,8 +47,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12313</label>
 			<textcolor>black</textcolor>
 			<onleft>12</onleft>
@@ -66,8 +66,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12310</label>
 			<textcolor>black</textcolor>
 			<onleft>20</onleft>
@@ -85,8 +85,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12314</label>
 			<textcolor>black</textcolor>
 			<onleft>23</onleft>
@@ -104,8 +104,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12315</label>
 			<textcolor>black</textcolor>
 			<onleft>14</onleft>
@@ -123,8 +123,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12316</label>
 			<textcolor>black</textcolor>
 			<onleft>15</onleft>
@@ -142,8 +142,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12317</label>
 			<textcolor>black</textcolor>
 			<onleft>21</onleft>
@@ -161,8 +161,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12318</label>
 			<textcolor>black</textcolor>
 			<onleft>17</onleft>
@@ -180,8 +180,8 @@
 			<font>font16</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKey.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkey.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<label>12319</label>
 			<textcolor>black</textcolor>
 			<onleft>18</onleft>
@@ -199,8 +199,8 @@
 			<font>font12</font>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturenofocus border="8">KeyboardKeyDark.png</texturenofocus>
-			<texturefocus border="8">KeyboardKeyFocus.png</texturefocus>
+			<texturenofocus border="8">keyboardkeydark.png</texturenofocus>
+			<texturefocus border="8">keyboardkeyfocus.png</texturefocus>
 			<textwidth>120</textwidth>
 			<label>-</label>
 			<textcolor>white</textcolor>

@@ -50,7 +50,7 @@
 					<posy>-30</posy>
 					<width>380</width>
 					<height>500</height>
-					<texture border="30">ShadowBorder.png</texture>
+					<texture border="30">shadowborder.png</texture>
 				</control>
 				<control type="button">
 					<description>Panel Background image</description>
@@ -58,8 +58,8 @@
 					<posy>0</posy>
 					<width>320</width>
 					<height>440</height>
-					<texturefocus border="5">SubBack.png</texturefocus>
-					<texturenofocus border="5">SubBack.png</texturenofocus>
+					<texturefocus border="5">subback.png</texturefocus>
+					<texturenofocus border="5">subback.png</texturenofocus>
 					<onclick>noop</onclick>
 				</control>
 				<control type="image">
@@ -68,7 +68,7 @@
 					<posy>10</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture border="5">SubBack2.png</texture>
+					<texture border="5">subback2.png</texture>
 				</control>
 				<control type="image">
 					<description>Panel Arrow image</description>

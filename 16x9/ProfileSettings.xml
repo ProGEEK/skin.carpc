@@ -13,7 +13,7 @@
 			<posy>0</posy>
 			<width>1000</width>
 			<height>60</height>
-			<texture border="5">DialogHeader.png</texture>
+			<texture border="5">dialogheader.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>header label</description>
@@ -33,7 +33,7 @@
 			<posy>60</posy>
 			<width>1000</width>
 			<height>840</height>
-			<texture border="5">DialogBack.png</texture>
+			<texture border="5">dialogback.png</texture>
 		</control>
 		<control type="image" id="2">
 			<description>profile image</description>
@@ -107,8 +107,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -117,8 +117,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -127,8 +127,8 @@
 			<height>55</height>
 			<font>font13</font>
 			<textcolor>black</textcolor>
-			<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+			<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>

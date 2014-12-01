@@ -97,8 +97,8 @@
 					<texturefocus border="5">floor_buttonfo.png</texturefocus>
 					<label>31008</label>
 					<onclick>back</onclick>
-					<textureradioon flipx="true" flipy="true">GoFullscreen.png</textureradioon>
-					<textureradiooff flipx="true" flipy="true">GoFullscreen.png</textureradiooff>
+					<textureradioon flipx="true" flipy="true">gofullscreen.png</textureradioon>
+					<textureradiooff flipx="true" flipy="true">gofullscreen.png</textureradiooff>
 				</control>
 			</control>
 			<control type="group">
@@ -132,7 +132,7 @@
 					<width>90</width>
 					<height>90</height>
 					<colordiffuse>EEFFFFFF</colordiffuse>
-					<texture border="3">PlayerControls-Background.png</texture>
+					<texture border="3">PlayerControls-background.png</texture>
 				</control>
 				<control type="button">
 					<description>Previous Image</description>
@@ -157,7 +157,7 @@
 					<width>90</width>
 					<height>90</height>
 					<colordiffuse>EEFFFFFF</colordiffuse>
-					<texture border="3">PlayerControls-Background.png</texture>
+					<texture border="3">PlayerControls-background.png</texture>
 				</control>
 				<control type="button">
 					<description>Next Image</description>
@@ -188,7 +188,7 @@
 				<height>150</height>
 				<info>MusicPlayer.Cover</info>
 				<aspectratio>keep</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture border="8">thumbshadow.png</bordertexture>
 				<bordersize>8</bordersize>
 			</control>
 			<control type="label">

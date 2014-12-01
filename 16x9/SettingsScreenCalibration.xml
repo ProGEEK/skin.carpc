@@ -32,7 +32,7 @@
 			<font>-</font>
 			<onclick>Back</onclick>
 			<texturefocus>DialogCloseButton-focus.png</texturefocus>
-			<texturenofocus>DialogCloseButton.png</texturenofocus>
+			<texturenofocus>dialogclosebutton.png</texturenofocus>
 			<onleft>1</onleft>
 			<onright>1</onright>
 			<onup>1</onup>
@@ -45,7 +45,7 @@
 			<posy>0</posy>
 			<width>128</width>
 			<height>128</height>
-			<texturefocus>CalibrateTopLeft.png</texturefocus>
+			<texturefocus>calibratetopleft.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="9">
@@ -54,7 +54,7 @@
 			<posy>500</posy>
 			<width>128</width>
 			<height>128</height>
-			<texturefocus>CalibrateBottomRight.png</texturefocus>
+			<texturefocus>calibratebottomright.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="mover" id="10">
@@ -63,7 +63,7 @@
 			<posy>500</posy>
 			<width>512</width>
 			<height>128</height>
-			<texturefocus>CalibrateSubtitles.png</texturefocus>
+			<texturefocus>calibratesubtitles.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="resize" id="11">
@@ -72,7 +72,7 @@
 			<posy>232</posy>
 			<width>256</width>
 			<height>256</height>
-			<texturefocus>CalibratePixelRatio.png</texturefocus>
+			<texturefocus>calibratepixelratio.png</texturefocus>
 			<texturenofocus>-</texturenofocus>
 		</control>
 		<control type="group">

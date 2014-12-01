@@ -13,7 +13,7 @@
 			<posy>0</posy>
 			<width>1000</width>
 			<height>60</height>
-			<texture border="5">DialogHeader.png</texture>
+			<texture border="5">dialogheader.png</texture>
 		</control>
 		<control type="label" id="1">
 			<description>header label</description>
@@ -33,7 +33,7 @@
 			<posy>60</posy>
 			<width>1000</width>
 			<height>840</height>
-			<texture border="5">DialogBack.png</texture>
+			<texture border="5">dialogback.png</texture>
 		</control>
 		<control type="textbox" id="5">
 			<description>textarea</description>
@@ -52,11 +52,11 @@
 			<posy>70</posy>
 			<width>29</width>
 			<height>820</height>
-			<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-			<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
-			<textureslidernib>ScrollBarNib.png</textureslidernib>
-			<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+			<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
+			<texturesliderbar border="0,14,0,14">scrollbarv_bar.png</texturesliderbar>
+			<texturesliderbarfocus border="0,14,0,14">scrollbarv_bar_focus.png</texturesliderbarfocus>
+			<textureslidernib>scrollbarnib.png</textureslidernib>
+			<textureslidernibfocus>scrollbarnib.png</textureslidernibfocus>
 			<onleft>61</onleft>
 			<onright>61</onright>
 			<ondown>61</ondown>

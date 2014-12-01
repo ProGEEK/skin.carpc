@@ -13,7 +13,7 @@
 			<posy>-20</posy>
 			<width>400</width>
 			<height>760</height>
-			<texture border="5">SubBack.png</texture>
+			<texture border="5">subback.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>

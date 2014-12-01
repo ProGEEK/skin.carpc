@@ -14,7 +14,7 @@
 			<posy>0</posy>
 			<width>1000</width>
 			<height>60</height>
-			<texture border="5">DialogHeader.png</texture>
+			<texture border="5">dialogheader.png</texture>
 		</control>
 		<control type="label">
 			<description>header label</description>
@@ -34,7 +34,7 @@
 			<posy>60</posy>
 			<width>1000</width>
 			<height>840</height>
-			<texture border="5">DialogBack.png</texture>
+			<texture border="5">dialogback.png</texture>
 		</control>
 
 		<control type="group">
@@ -121,8 +121,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[3]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonVideo)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonVideo)</selected>
@@ -133,8 +133,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[20342]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonMovies)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonMovies)</selected>
@@ -146,8 +146,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[20343]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonTVShows)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonTVShows)</selected>
@@ -159,8 +159,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[2]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonMusic)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonMusic)</selected>
@@ -171,8 +171,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[1]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonPictures)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonPictures)</selected>
@@ -183,8 +183,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[0]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonPrograms)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonPrograms)</selected>
@@ -204,8 +204,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31550]</label>
 				<onclick>Skin.ToggleSetting(HideHomeButtonWeather)</onclick>
 				<selected>!Skin.HasSetting(HideHomeButtonWeather)</selected>
@@ -239,8 +239,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31552]</label>
 				<label2>$INFO[system.addontitle(Skin.String(SubtitleScript_Path))]</label2>
 				<onclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</onclick>
@@ -260,8 +260,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 1</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton1))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton1,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -272,8 +272,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 2</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton2))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton2,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -284,8 +284,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 3</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton3))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton3,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -296,8 +296,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 4</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton4))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton4,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -308,8 +308,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 5</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton5))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton5,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -320,8 +320,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 6</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton6))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton6,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -332,8 +332,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 7</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton7))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton7,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -344,8 +344,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 8</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton8))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton8,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -356,8 +356,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 9</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton9))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton9,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -368,8 +368,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 10</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton10))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton10,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -380,8 +380,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 11</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton11))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton11,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -392,8 +392,8 @@
 				<width>920</width>
 				<font>font13</font>
 				<textcolor>black</textcolor>
-				<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 				<label>$LOCALIZE[31551] 12</label>
 				<label2>$INFO[system.addontitle(Skin.String(HomeAddonButton12))]</label2>
 				<onclick>Skin.SetAddon(HomeAddonButton12,xbmc.addon.video,xbmc.addon.audio,xbmc.addon.image,xbmc.python.script)</onclick>
@@ -404,11 +404,11 @@
 			<posy>120</posy>
 			<width>19</width>
 			<height>750</height>
-			<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
-			<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
-			<textureslidernib>ScrollBarNib.png</textureslidernib>
-			<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+			<texturesliderbackground border="0,14,0,14">scrollbarv.png</texturesliderbackground>
+			<texturesliderbar border="0,14,0,14">scrollbarv_bar.png</texturesliderbar>
+			<texturesliderbarfocus border="0,14,0,14">scrollbarv_bar_focus.png</texturesliderbarfocus>
+			<textureslidernib>scrollbarnib.png</textureslidernib>
+			<textureslidernibfocus>scrollbarnib.png</textureslidernibfocus>
 			<onleft>2</onleft>
 			<onright>9</onright>
 			<showonepage>false</showonepage>
