@@ -129,7 +129,7 @@
 			<height>50</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<texturefocus border="5">IconBack-focus.png</texturefocus>
+			<texturefocus border="5">iconback-focus.png</texturefocus>
 			<texturenofocus border="5">listnf.png</texturenofocus>
 			<label>1024</label>
 			<font>font12_title</font>

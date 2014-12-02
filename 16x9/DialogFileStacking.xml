@@ -24,7 +24,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>Back</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus>dialogclosebutton-focus.png</texturefocus>
 			<texturenofocus>dialogclosebutton.png</texturenofocus>
 			<onleft>13</onleft>
 			<onright>13</onright>

@@ -1190,7 +1190,7 @@
 				<posy>5</posy>
 				<width>110</width>
 				<height>110</height>
-				<!--<bordertexture border="5">IconBack-focus.png</bordertexture>-->
+				<!--<bordertexture border="5">iconback-focus.png</bordertexture>-->
 				<bordersize>12</bordersize>
 				<texture>$INFO[ListItem.Icon]</texture>
 			</control>
@@ -1236,7 +1236,7 @@
 		<texturefocus border="5">homesubfo.png</texturefocus>
 		<texturenofocus border="5">homesubnf.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
-		<textureradioon>HomeTab-focus.png</textureradioon>
+		<textureradioon>hometab-focus.png</textureradioon>
 		<textureradiooff>-</textureradiooff>
 		<radioposx>5</radioposx>
 		<radioposy>43</radioposy>
@@ -1262,7 +1262,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font12_title</font>
-		<texturefocus border="5">IconBack-focus.png</texturefocus>
+		<texturefocus border="5">iconback-focus.png</texturefocus>
 		<texturenofocus border="5">listnf.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>

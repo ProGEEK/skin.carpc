@@ -827,7 +827,7 @@
 				<width>90</width>
 				<height>170</height>
 				<colordiffuse>EEFFFFFF</colordiffuse>
-				<texture border="3">PlayerControls-background.png</texture>
+				<texture border="3">playercontrols-background.png</texture>
 			</control>
 			<control type="label">
 				<description>header label</description>

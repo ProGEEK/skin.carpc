@@ -877,7 +877,7 @@
 				<description>Play/browse to Show</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>208</label>
-				<alttexturefocus border="5">IconBack-focus.png</alttexturefocus>
+				<alttexturefocus border="5">iconback-focus.png</alttexturefocus>
 				<alttexturenofocus border="5">listnf.png</alttexturenofocus>
 				<altlabel>1024</altlabel>
 				<usealttexture>Container.Content(TVShows)</usealttexture>

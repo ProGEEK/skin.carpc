@@ -132,7 +132,7 @@
 					<width>90</width>
 					<height>90</height>
 					<colordiffuse>EEFFFFFF</colordiffuse>
-					<texture border="3">PlayerControls-background.png</texture>
+					<texture border="3">playercontrols-background.png</texture>
 				</control>
 				<control type="button">
 					<description>Previous Image</description>
@@ -157,7 +157,7 @@
 					<width>90</width>
 					<height>90</height>
 					<colordiffuse>EEFFFFFF</colordiffuse>
-					<texture border="3">PlayerControls-background.png</texture>
+					<texture border="3">playercontrols-background.png</texture>
 				</control>
 				<control type="button">
 					<description>Next Image</description>

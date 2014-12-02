@@ -31,7 +31,7 @@
 			<label>-</label>
 			<font>-</font>
 			<onclick>Back</onclick>
-			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturefocus>dialogclosebutton-focus.png</texturefocus>
 			<texturenofocus>dialogclosebutton.png</texturenofocus>
 			<onleft>1</onleft>
 			<onright>1</onright>
