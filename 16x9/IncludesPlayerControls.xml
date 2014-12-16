@@ -15,7 +15,7 @@
 		<control type="group">
 			<posx>0</posx>
 			<posy>110</posy>
-			<visible>Player.HasAudio</visible>
+			<visible>Player.HasAudio + !Window.IsVisible(Visualisation) + !Window.IsVisible(FullScreenVideo) + !Window.IsVisible(Karaoke)</visible>
 			<animation effect="slide" start="0,-200" end="0,0" time="300" easing="out" tween="quadratic" >Visible</animation>
 			<animation effect="slide" start="0,0" end="0,-200" time="300" easing="in" tween="quadratic" >Hidden</animation>
 			<control type="image">
@@ -438,44 +438,16 @@
 			<description>Top Right bar</description>
 			<include>Window_OpenClose_Animation_Slide_Down</include>
 			<posx>1080r</posx>
-			<posy>25</posy>
+			<posy>14</posy>
 			<width>1000</width>
-			<height>64</height>
+			<height>80</height>
 			<align>right</align>
 			<itemgap>5</itemgap>
 			<orientation>horizontal</orientation>
-			<control type="radiobutton">
-				<description>Show Info Button</description>
-				<width>270</width>
-				<height>50</height>
-				<label>$LOCALIZE[544]</label>
-				<font>font13</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<selected>Skin.HasSetting(PlayerControlsShowAudioInfo)</selected>
-				<texturenofocus border="5">floor_button_t.png</texturenofocus>
-				<texturefocus border="5">floor_buttonfo.png</texturefocus>
-				<onclick>Skin.ToggleSetting(PlayerControlsShowAudioInfo)</onclick>
-				<visible>Player.HasAudio</visible>
-			</control>
-			<control type="radiobutton">
-				<description>Show Info Button</description>
-				<width>270</width>
-				<height>50</height>
-				<label>$LOCALIZE[544]</label>
-				<font>font13</font>
-				<align>left</align>
-				<aligny>center</aligny>
-				<selected>Skin.HasSetting(PlayerControlsShowVideoInfo)</selected>
-				<texturenofocus border="5">floor_button_t.png</texturenofocus>
-				<texturefocus border="5">floor_buttonfo.png</texturefocus>
-				<onclick>Skin.ToggleSetting(PlayerControlsShowVideoInfo)</onclick>
-				<visible>Player.HasVideo</visible>
-			</control>
 			<control type="button">
 				<description>Submenu Button</description>
-				<width>200</width>
-				<height>50</height>
+				<width>230</width>
+				<height>80</height>
 				<label>$LOCALIZE[33063]</label>
 				<font>font13</font>
 				<align>center</align>
@@ -489,7 +461,7 @@
 				<description>Fullscreen Button</description>
 				<posy>5</posy>
 				<width>230</width>
-				<height>50</height>
+				<height>80</height>
 				<radiowidth>36</radiowidth>
 				<radioheight>36</radioheight>
 				<font>font13</font>
@@ -507,7 +479,7 @@
 				<description>Fullscreen Button</description>
 				<posy>5</posy>
 				<width>230</width>
-				<height>50</height>
+				<height>80</height>
 				<radiowidth>36</radiowidth>
 				<radioheight>36</radioheight>
 				<font>font13</font>
