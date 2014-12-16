@@ -283,7 +283,7 @@
 				<item>
 					<label></label>
 					<onclick>ActivateWindow(Settings)</onclick>
-					<icon>icon_settings_w.png</icon>
+					<icon>settings.png</icon>
 				</item>
 			</content>
 		</control>

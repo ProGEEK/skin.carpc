@@ -32,7 +32,7 @@
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>220</posx>
-			<posy>298</posy>
+			<posy>198</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Sync Music</description>
@@ -69,7 +69,7 @@
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>870</posx>
-			<posy>298</posy>
+			<posy>198</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Sync Videos</description>
@@ -106,7 +106,7 @@
 		<control type="group">
 		<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>220</posx>
-			<posy>478</posy>
+			<posy>378</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Sync Maps</description>
@@ -141,9 +141,46 @@
 			</control>
 		</control>
 		<control type="group">
-		<include>Window_OpenClose_Animation_Zoom</include>
+			<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>870</posx>
-			<posy>478</posy>
+			<posy>378</posy>
+			<include>VisibleFadeEffect</include>
+			<control type="button">
+				<description>Programs</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>612</width>
+				<height>166</height>
+				<font>-</font>
+				<texturenofocus >settings_r.png</texturenofocus>
+				<texturefocus>settings_r_p.png</texturefocus>
+				<onclick>ActivateWindow(Programs)</onclick>
+			</control>
+			<control type="image">
+				<description>Restart</description>
+				<posx>450</posx>
+				<posy>30</posy>
+				<width>100</width>
+				<height>100</height>
+				<texture>programs2.png</texture>
+			</control>
+			<control type="label">
+				<description>Programs</description>
+				<posx>100</posx>
+				<posy>0</posy>
+				<height>150</height>
+				<width>400</width>
+				<label>Programs</label>
+				<align>left</align>
+				<aligny>center</aligny>
+				<font>font50_title</font>
+				<textcolor>FFFFFFF0</textcolor>		
+			</control>
+		</control>
+		<control type="group">
+			<include>Window_OpenClose_Animation_Zoom</include>
+			<posx>560</posx>
+			<posy>558</posy>
 			<include>VisibleFadeEffect</include>
 			<control type="button">
 				<description>Restart</description>
@@ -152,9 +189,9 @@
 				<width>612</width>
 				<height>166</height>
 				<font>-</font>
-				<texturenofocus >settings_r.png</texturenofocus>
-				<texturefocus>settings_r_p.png</texturefocus>
-				<onclick>Reboot</onclick>
+				<texturenofocus >settings_c.png</texturenofocus>
+				<texturefocus>settings_c_p.png</texturefocus>
+				<onclick>Reboot</onclick>settings_c
 			</control>
 			<control type="image">
 				<description>Restart</description>
