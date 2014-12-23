@@ -124,21 +124,6 @@
 					<pulseonselect>false</pulseonselect>
 					<label>13281</label>
 				</control>
-				<control type="button" id="99">
-					<description>Button System Update</description>
-					<height>70</height>
-					<width>280</width>
-					<textoffsetx>20</textoffsetx>
-					<align>right</align>
-					<aligny>center</aligny>
-					<font>font24_title</font>
-					<textcolor>white</textcolor>
-					<focusedcolor>selected</focusedcolor>
-					<texturefocus border="5">button-nofocus2.png</texturefocus>
-					<texturenofocus border="5">button-nofocus2.png</texturenofocus>
-					<pulseonselect>false</pulseonselect>
-					<label>System Update</label>
-				</control>
 			</control>
 			<control type="group">
 				<posx>300</posx>
