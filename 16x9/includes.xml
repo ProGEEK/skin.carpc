@@ -92,11 +92,11 @@
                         <include>Window_OpenClose_Animation_Slide_Down</include>
 			<include>VisibleFadeEffect</include>
                         <posx>107r</posx>
-                        <posy>3</posy>
+                        <posy>4</posy>
                         <width>100</width>
                         <height>100</height>
 			<control type="button">
-                                <description>Home Button</description>
+                                <description>Disc Button</description>
                                 <posx>0</posx>
                                 <posy>0</posy>
                                 <width>100</width>
@@ -117,6 +117,37 @@
 
 		</control>
 	</include>
+        <include name="Mute">
+                <control type="group">
+                        <visible>Player.Muted</visible>
+                        <include>Window_OpenClose_Animation_Slide_Down</include>
+                        <include>VisibleFadeEffect</include>
+                        <posx>217r</posx>
+                        <posy>4</posy>
+                        <width>100</width>
+                        <height>100</height>
+                        <control type="button">
+                                <description>Mute Button</description>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <width>100</width>
+                                <height>100</height>
+                                <font>-</font>
+                                <texturenofocus border="5">floor_button_t.png</texturenofocus>
+                                <texturefocus border="5">floor_buttonfo.png</texturefocus>
+                                <onclick>Mute</onclick>
+                        </control>
+                        <control type="image">
+                                <description>Muted Image</description>
+                                <posx>4</posx>
+                                <posy>4</posy>
+                                <width>100</width>
+                                <height>100</height>
+                                <texture>mute.png</texture>
+                        </control>
+
+                </control>
+        </include>
 
 	
 	<!-- weather Info -->

@@ -108,7 +108,7 @@
 			</control>
 			<control type="label">
 				<description>Music</description>
-				<posx>235</posx>
+				<posx>150</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
@@ -146,7 +146,7 @@
 			</control>
 			<control type="label">
 				<description>Weather</description>
-				<posx>200</posx>
+				<posx>150</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
@@ -184,7 +184,7 @@
 			</control>
 			<control type="label">
 				<description>Services</description>
-				<posx>200</posx>
+				<posx>150</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
@@ -222,12 +222,12 @@
 			</control>
 			<control type="label">
 				<description>Video</description>
-				<posx>100</posx>
+				<posx>50</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
 				<label>Video</label>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<font>font50_title</font>
 				<textcolor>FFFFFFF0</textcolor>		
@@ -260,12 +260,12 @@
 			</control>
 			<control type="label">
 				<description>Pictures</description>
-				<posx>100</posx>
+				<posx>50</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
 				<label>Pictures</label>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<font>font50_title</font>
 				<textcolor>FFFFFFF0</textcolor>		
@@ -298,12 +298,12 @@
 			</control>
 			<control type="label">
 				<description>Add-ons</description>
-				<posx>100</posx>
+				<posx>50</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
 				<label>Add-ons</label>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<font>font50_title</font>
 				<textcolor>FFFFFFF0</textcolor>		
@@ -336,12 +336,12 @@
 			</control>
 			<control type="label">
 				<description>System</description>
-				<posx>100</posx>
+				<posx>50</posx>
 				<posy>0</posy>
 				<height>150</height>
 				<width>400</width>
 				<label>System</label>
-				<align>left</align>
+				<align>center</align>
 				<aligny>center</aligny>
 				<font>font50_title</font>
 				<textcolor>FFFFFFF0</textcolor>		

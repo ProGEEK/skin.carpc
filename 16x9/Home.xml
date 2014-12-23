@@ -12,7 +12,7 @@
 			<visible>Player.HasVideo</visible>
 		</control>
 		
-	<!--<control type="image">
+		<!--<control type="image">
 				<posx>0</posx>
 				<posy>ScreenHeight</posy>
 				<width>ScreenWidth</width>
@@ -24,6 +24,7 @@
 	
 		<include>XbmcLogo</include>
 		<include>Time</include>
+		<include>Mute</include>
 		<include>Disc</include>
 		
 
