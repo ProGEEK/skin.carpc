@@ -148,7 +148,7 @@
 			<posy>205</posy>
 			<width>550</width>
 			<height>550</height>
-			<texture>ford-logo2.png</texture>
+			<texture>center.png</texture>
 		</control>
 
 		<control type="group">
