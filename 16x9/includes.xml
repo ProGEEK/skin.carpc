@@ -28,6 +28,7 @@
 	 <!-- XBMC Logo with fullscreen action when pressed -->
       <include name="XbmcLogo">
 		<control type="group">
+                        <visible>!Skin.HasSetting(HideTopLogo)</visible>
 			<posx>0</posx>
 			<posy>0</posy>
 			<include>Window_OpenClose_Animation_Slide_Down</include>
@@ -35,7 +36,7 @@
 			<include>VisibleFadeEffect</include>
 			
 			<control type="image">
-				<description>XBMC Logo</description>
+				<description>Logo</description>
 				<posx>1</posx>
 				<posy>1</posy>
 				<width>500</width>
@@ -48,7 +49,7 @@
 				<posy>1</posy>
 				<width>500</width>
 				<height>96</height>
-                <colordiffuse>00FFFFFF</colordiffuse>
+                                <colordiffuse>00FFFFFF</colordiffuse>
 				<onclick>ActivateWindow(1115)</onclick>
 			</control>
 		</control>
@@ -70,6 +71,7 @@
 		
 	<include name="Time">
 		<control type="label">
+                        <visible>!Skin.HasSetting(HideTime)</visible>
 			<include>Window_OpenClose_Animation_Slide_Down</include>
 			<description>time label</description>
 			<posx>500</posx>
@@ -84,6 +86,22 @@
 			<include>VisibleFadeEffect</include>
 			<include>16x9_xPos_Relocation</include>
 		</control>
+                <control type="label">
+                        <visible>!Skin.HasSetting(HideTime)</visible>
+                        <include>Window_OpenClose_Animation_Slide_Down</include>
+                        <description>time label</description>
+                        <posx>500</posx>
+                        <posy>40</posy>
+                        <width>300</width>
+                        <height>90</height>
+                        <aligny>center</aligny>
+                        <align>center</align>
+                        <font>datefont</font>
+                        <textcolor>white</textcolor>
+                        <label>$INFO[System.Date]</label>
+                        <include>VisibleFadeEffect</include>
+                        <include>16x9_xPos_Relocation</include>
+                </control>
 	</include>	
 
 	<include name="Disc">
@@ -404,6 +422,7 @@
 		<control type="group">
 			<posx>20</posx>
 			<posy>20</posy>
+                        <visible>!Skin.HasSetting(HideVolumeSlider)</visible>
 			<control type="label">
 				<description>label</description>
 				<posx>10</posx>
