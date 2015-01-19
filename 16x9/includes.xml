@@ -88,10 +88,11 @@
 		</control>
                 <control type="label">
                         <visible>!Skin.HasSetting(HideTime)</visible>
+                        <visible>!Skin.HasSetting(HideDate)</visible>
                         <include>Window_OpenClose_Animation_Slide_Down</include>
                         <description>time label</description>
                         <posx>500</posx>
-                        <posy>40</posy>
+                        <posy>35</posy>
                         <width>300</width>
                         <height>90</height>
                         <aligny>center</aligny>

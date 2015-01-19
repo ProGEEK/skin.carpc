@@ -128,9 +128,21 @@
 				<textcolor>black</textcolor>
 				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
 				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
-				<label>Clock</label>
+				<label>Time</label>
 				<onclick>Skin.ToggleSetting(HideTime)</onclick>
 				<selected>!Skin.HasSetting(HideTime)</selected>
+			</control>
+			<control type="radiobutton" id="103">
+				<description>Hide Date</description>
+				<height>55</height>
+				<width>920</width>
+				<font>font13</font>
+				<textcolor>black</textcolor>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
+				<label>Date (Hidden if Time is disabled)</label>
+				<onclick>Skin.ToggleSetting(HideDate)</onclick>
+				<selected>!Skin.HasSetting(HideDate)</selected>
 			</control>
 			<control type="radiobutton" id="104">
 				<description>Hide Time</description>
