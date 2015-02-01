@@ -277,82 +277,101 @@
 	
 	<include name="MusicPlayerTitle">
 		<control type="group">
-			<include>Window_OpenClose_Animation_Slide_Up</include>
-            <posx>0</posx>
-            <posy>668</posy>
-           
-            <control type="label">
-                <visible>substring(Window(Home).Property(Radio.Active),false)</visible>
-                <posx>10</posx>
-                <posy>100</posy>
-                <width>800</width>
-                <height>70</height>
-                <font>font50_title</font>
-                <textcolor>white</textcolor>
-                <selectedcolor>selected</selectedcolor>
-                <align></align>
-                <aligny>center</aligny>
-                <info>MusicPlayer.Artist</info>
-                <scrollspeed>50</scrollspeed>
-                <scrollsuffix> - </scrollsuffix>
-            </control>
-            <control type="label">
-                <visible>substring(Window(Home).Property(Radio.Active),false)</visible>
-                <posx>10r</posx>
-                <posy>100</posy>
-                <width>800</width>
-                <height>70</height>
-                <font>font50_title</font>
-                <textcolor>white</textcolor>
-                <selectedcolor>selected</selectedcolor>
-                <align>right</align>
-                <aligny>center</aligny>
-                <info>MusicPlayer.Title</info>
-                <scrollspeed>50</scrollspeed>
-                <scrollsuffix> - </scrollsuffix>
-            </control>
-        </control>
+		      <include>Window_OpenClose_Animation_Slide_Up</include>
+                    <posx>0</posx>
+                    <posy>668</posy>
+                   
+                    <control type="label">
+                        <visible>substring(Window(Home).Property(Radio.Active),false)</visible>
+                        <posx>10</posx>
+                        <posy>100</posy>
+                        <width>800</width>
+                        <height>70</height>
+                        <font>font50_title</font>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>selected</selectedcolor>
+                        <align></align>
+                        <aligny>center</aligny>
+                        <info>MusicPlayer.Artist</info>
+                        <scrollspeed>50</scrollspeed>
+                        <scrollsuffix> - </scrollsuffix>
+                    </control>
+                    <control type="label">
+                        <visible>substring(Window(Home).Property(Radio.Active),false)</visible>
+                        <posx>10r</posx>
+                        <posy>100</posy>
+                        <width>800</width>
+                        <height>70</height>
+                        <font>font50_title</font>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>selected</selectedcolor>
+                        <align>right</align>
+                        <aligny>center</aligny>
+                        <info>MusicPlayer.Title</info>
+                        <scrollspeed>50</scrollspeed>
+                        <scrollsuffix> - </scrollsuffix>
+                    </control>
+                </control>
 	</include>
 	<include name="RadioStationName">
 		<control type="group">
-			<include>Window_OpenClose_Animation_Slide_Up</include>
-            <posx>0</posx>
-            <posy>670</posy>
-            <control type="label">
-                <visible>substring(Window(Home).Property(Radio.Active),true)</visible>
-                <posx>10</posx>
-                <posy>100</posy>
-                <width>800</width>
-                <height>70</height>
-                <font>font50_title</font>
-                <textcolor>white</textcolor>
-                <selectedcolor>selected</selectedcolor>
-                <align></align>
-                <aligny>center</aligny>
-                <label>$INFO[Window(Home).Property(Radio.Frequency)]</label>
-                <scrollspeed>50</scrollspeed>
-                <scrollsuffix> - </scrollsuffix>
-            </control>
-            <control type="label">
-                <visible>substring(Window(Home).Property(Radio.Active),true)</visible>
-                <posx>10r</posx>
-                <posy>100</posy>
-                <width>800</width>
-                <height>70</height>
-                <font>font50_title</font>
-                <textcolor>white</textcolor>
-                <selectedcolor>selected</selectedcolor>
-                <align>right</align>
-                <aligny>center</aligny>
-                <!--<info>MusicPlayer.Title</info>-->
-                <label>$INFO[Window(Home).Property(Radio.StationName)]</label>
-                <!--<label>$INFO[Window(Home).Property(Radio.Active)]</label>-->
-                <scrollspeed>50</scrollspeed>
-                <scrollsuffix> - </scrollsuffix>
-            </control>
-        </control>
+		      <include>Window_OpenClose_Animation_Slide_Up</include>
+                        <posx>0</posx>
+                        <posy>670</posy>
+                        <control type="label">
+                                <visible>substring(Window(Home).Property(Radio.Active),true)</visible>
+                                <posx>10</posx>
+                                <posy>100</posy>
+                                <width>800</width>
+                                <height>70</height>
+                                <font>font50_title</font>
+                                <textcolor>white</textcolor>
+                                <selectedcolor>selected</selectedcolor>
+                                <align></align>
+                                <aligny>center</aligny>
+                                <label>$INFO[Window(Home).Property(Radio.Frequency)]</label>
+                                <scrollspeed>50</scrollspeed>
+                                <scrollsuffix> - </scrollsuffix>
+                        </control>
+                        <control type="label">
+                                <visible>substring(Window(Home).Property(Radio.Active),true)</visible>
+                                <posx>10r</posx>
+                                <posy>100</posy>
+                                <width>800</width>
+                                <height>70</height>
+                                <font>font50_title</font>
+                                <textcolor>white</textcolor>
+                                <selectedcolor>selected</selectedcolor>
+                                <align>right</align>
+                                <aligny>center</aligny>
+                                <!--<info>MusicPlayer.Title</info>-->
+                                <label>$INFO[Window(Home).Property(Radio.StationName)]</label>
+                                <!--<label>$INFO[Window(Home).Property(Radio.Active)]</label>-->
+                                <scrollspeed>50</scrollspeed>
+                                <scrollsuffix> - </scrollsuffix>
+                        </control>
+                </control>
 	</include>
-	
+	<include name="Speed">
+                <control type="group">
+                    <include>Window_OpenClose_Animation_Slide_Up</include>
+                    <control type="label">
+                        <visible>substring(Window(Home).Property(Navigation.Active),true)</visible>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <width>500</width>
+                        <height>50</height>
+                        <font>font50_title</font>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>selected</selectedcolor>
+                        <align>center</align>
+                        <aligny>center</aligny>
+                        <label>$INFO[Window(Home).Property(Navigation.Speed)]</label>
+                        <scrollspeed>50</scrollspeed>
+                        <scrollsuffix> - </scrollsuffix>
+                    </control>
+                </control>
+        </include>
 	<include name="CommonBackground">
 		<control type="image">
 			<posx>0</posx>
@@ -391,33 +410,33 @@
 				<texture>shelf_shadow.png</texture>
 			</control>
 	</include>-->
-    <include name="BottomNowPLaying">
-        <control type="group">
-            <include>Window_OpenClose_Animation_Slide_Up</include>
-            <posx>0</posx>
-            <posy>135r</posy>
-            <!-- Bottom Overlay -->
-            <control type="image">
+        <include name="BottomNowPLaying">
+                <control type="group">
+                    <include>Window_OpenClose_Animation_Slide_Up</include>
                     <posx>0</posx>
-                    <posy>40</posy>
-                    <width>ScreenWidth</width>
-                    <height>95</height>
-                    <!--<texture>black.png</texture>-->
-                    <colordiffuse>bbffffff</colordiffuse>
-            </control>
-            <control type="image">
-                    <posx>0</posx>
-                    <posy>40</posy>
-                    <width>ScreenWidth</width>
-                    <height>-40</height>
-                    <!--<texture>shelf_shadow.png</texture>-->
-            </control>
-            
-            <include>CommonNowPlaying</include>
-            <include>CommonVolumeBottom</include>
-            <include>PlayerControlsAll</include>
-        </control>
-    </include>
+                    <posy>135r</posy>
+                    <!-- Bottom Overlay -->
+                    <control type="image">
+                            <posx>0</posx>
+                            <posy>40</posy>
+                            <width>ScreenWidth</width>
+                            <height>95</height>
+                            <!--<texture>black.png</texture>-->
+                            <colordiffuse>bbffffff</colordiffuse>
+                    </control>
+                    <control type="image">
+                            <posx>0</posx>
+                            <posy>40</posy>
+                            <width>ScreenWidth</width>
+                            <height>-40</height>
+                            <!--<texture>shelf_shadow.png</texture>-->
+                    </control>
+                    
+                    <include>CommonNowPlaying</include>
+                    <include>CommonVolumeBottom</include>
+                    <include>PlayerControlsAll</include>
+                </control>
+        </include>
         
 	<include name="CommonVolumeBottom">
 		<control type="group">
@@ -739,6 +758,12 @@
                                 <textcolor>white</textcolor>
                                 <scroll>true</scroll>
                                 <visible>MusicPlayer.HasNext</visible>
+                        </control>
+                        <!-- Song/radio info -->
+                        <control type="group">
+                                <posy>100r</posy>
+                                <posx>600</posx>
+                                <include>Speed</include>
                         </control>
                 </control>
         </include>

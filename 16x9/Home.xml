@@ -25,8 +25,7 @@
 		<include>XbmcLogo</include>
 		<include>Time</include>
 		<include>Mute</include>
-		<include>Disc</include>
-		
+		<include>Disc</include>		
 
 			<!--Meniu by me-->
 	<control type="group">
@@ -268,7 +267,12 @@
 		
 		<include>CommonBottomBar</include>
 		<include>MusicPlayerTitle</include>
-		<include>RadioStationName</include>
+		<!-- Song/radio info -->
+		<control type="group">
+			<posy>185r</posy>
+			<posx>600</posx>
+			<include>Speed</include>
+		</control>
 		<include>BottomNowPLaying</include>
 		
 		<control type="panel" id="9002">
