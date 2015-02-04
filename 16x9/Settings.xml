@@ -368,11 +368,11 @@
 					<onclick>ActivateWindow(Profiles)</onclick>
 					<icon>icon_profile_w.png</icon>
 				</item>-->
-				<!--<item>
+				<item>
 					<label>20077</label>
-					<onclick>ActivateWindow(1113)</onclick>
+					<onclick>ActivateWindow(SkinSettings)</onclick>
 					<icon>icon_skin_w.png</icon>
-				</item>-->
+				</item>
 				<item>
 					<label>130</label>
 					<onclick>ActivateWindow(SystemInfo)</onclick>

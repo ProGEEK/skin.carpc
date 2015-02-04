@@ -140,7 +140,7 @@
 				<textcolor>black</textcolor>
 				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
 				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
-				<label>Date (Hidden if Time is disabled)</label>
+				<label>Date (Requires Time)</label>
 				<onclick>Skin.ToggleSetting(HideDate)</onclick>
 				<selected>!Skin.HasSetting(HideDate)</selected>
 			</control>
@@ -155,6 +155,30 @@
 				<label>Top Logo</label>
 				<onclick>Skin.ToggleSetting(HideTopLogo)</onclick>
 				<selected>!Skin.HasSetting(HideTopLogo)</selected>
+			</control>
+			<control type="radiobutton" id="105">
+				<description>Mouse Pointer</description>
+				<height>55</height>
+				<width>920</width>
+				<font>font13</font>
+				<textcolor>black</textcolor>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
+				<label>Mouse Pointer</label>
+				<onclick>Skin.ToggleSetting(HideMousePointer)</onclick>
+				<selected>!Skin.HasSetting(HideMousePointer)</selected>
+			</control>
+			<control type="radiobutton" id="106">
+				<description>GPS Info</description>
+				<height>55</height>
+				<width>920</width>
+				<font>font13</font>
+				<textcolor>black</textcolor>
+				<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				<texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
+				<label>GPS Info</label>
+				<onclick>Skin.ToggleSetting(HideGPSInfo)</onclick>
+				<selected>!Skin.HasSetting(HideGPSInfo)</selected>
 			</control>
 		</control>
 		<control type="scrollbar" id="30">

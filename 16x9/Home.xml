@@ -267,11 +267,11 @@
 		
 		<include>CommonBottomBar</include>
 		<include>MusicPlayerTitle</include>
-		<!-- Song/radio info -->
+		<!-- GPS info -->
 		<control type="group">
 			<posy>185r</posy>
 			<posx>600</posx>
-			<include>Speed</include>
+			<include>GPSInfo</include>
 		</control>
 		<include>BottomNowPLaying</include>
 		

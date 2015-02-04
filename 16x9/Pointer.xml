@@ -5,8 +5,9 @@
 		<posx>0</posx>
 		<posy>0</posy>
 	</coordinates>
-	<!--<controls>
+	<controls>
 		<control type="image" id="1">
+			<visible>!Skin.HasSetting(HideMousePointer)</visible>
 			<description>Pointer Image</description>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -15,6 +16,7 @@
 			<texture>pointer-focus.png</texture>
 		</control>
 		<control type="image" id="2">
+			<visible>!Skin.HasSetting(HideMousePointer)</visible>
 			<description>Pointer Focus Image</description>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -23,6 +25,7 @@
 			<texture>pointer-focus.png</texture>
 		</control>
 		<control type="image" id="3">
+			<visible>!Skin.HasSetting(HideMousePointer)</visible>
 			<description>Pointer Drag Image</description>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -31,6 +34,7 @@
 			<texture>pointer-focus.png</texture>
 		</control>
 		<control type="image" id="4">
+			<visible>!Skin.HasSetting(HideMousePointer)</visible>
 			<description>Pointer Click Image</description>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -38,5 +42,5 @@
 			<height>32</height>
 			<texture>pointer-focus.png</texture>
 		</control>
-	</controls>-->
+	</controls>
 </window>

@@ -352,8 +352,9 @@
                         </control>
                 </control>
 	</include>
-	<include name="Speed">
+	<include name="GPSInfo">
                 <control type="group">
+                    <visible>!Skin.HasSetting(HideGPSInfo)</visible>
                     <include>Window_OpenClose_Animation_Slide_Up</include>
                     <control type="label">
                         <visible>substring(Window(Home).Property(Navigation.Active),true)</visible>
@@ -759,11 +760,11 @@
                                 <scroll>true</scroll>
                                 <visible>MusicPlayer.HasNext</visible>
                         </control>
-                        <!-- Song/radio info -->
+                        <!-- GPS info -->
                         <control type="group">
                                 <posy>100r</posy>
                                 <posx>600</posx>
-                                <include>Speed</include>
+                                <include>GPSInfo</include>
                         </control>
                 </control>
         </include>
