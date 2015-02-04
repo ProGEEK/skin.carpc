@@ -147,7 +147,7 @@
 			<posy>205</posy>
 			<width>550</width>
 			<height>550</height>
-			<texture>center.png</texture>
+			<texture fallback="default_center.png">center.png</texture>
 		</control>
 
 		<control type="group">

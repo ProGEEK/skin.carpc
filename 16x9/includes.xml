@@ -42,7 +42,7 @@
 				<width>500</width>
 				<height>96</height>
 				<aspectratio align="left">keep</aspectratio>
-				<texture>logo.png</texture>
+				<texture fallback="default_logo.png">logo.png</texture>
 			</control>
 			<control type="button">
 				<posx>1</posx>
