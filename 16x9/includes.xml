@@ -374,14 +374,26 @@
                 </control>
         </include>
 	<include name="CommonBackground">
-		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
-			<aspectratio>scale</aspectratio>
-			<width>ScreenWidth</width>
-			<height>ScreenHeight</height>
-			<texture fallback="special://skin/background/SKINDEFAULT.jpg">special://skin/background/$INFO[Skin.CurrentTheme].jpg</texture>
-		</control>
+                <control type="image">
+                        <description>Normal Background Image</description>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <width>ScreenWidth</width>
+                        <height>ScreenHeight</height>
+                        <aspectratio>scale</aspectratio>
+                        <texture>special://skin/background/SKINDEFAULT.jpg</texture>
+                        <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
+                </control>
+                <control type="image">
+                        <description>User Set Logo Image</description>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <width>ScreenWidth</width>
+                        <height>ScreenHeight</height>
+                        <aspectratio>scale</aspectratio>
+                        <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+                        <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
+                </control>
                 <control type="visualisation">
                         <posx>0</posx>
                         <posy>0</posy>
