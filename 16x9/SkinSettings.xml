@@ -189,28 +189,28 @@
                                         <onclick>Skin.ToggleSetting(HideGPSInfo)</onclick>
                                         <selected>!Skin.HasSetting(HideGPSInfo)</selected>
                                 </control>
-                                <control type="radiobutton" id="313">
+                                <control type="radiobutton" id="107">
 					<height>55</height>
 			        	<width>920</width>
-					<font>font24_title</font>
+					<font>font13</font>
 					<label>Custom Background</label>
 					<textcolor>black</textcolor>
 					<focusedcolor>blue</focusedcolor>
-					<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				        <texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+					<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				        <texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 					<onclick>Skin.ToggleSetting(UseCustomBackground)</onclick>
 					<selected>Skin.HasSetting(UseCustomBackground)</selected>
 				</control>
-				<control type="button" id="314">
+				<control type="button" id="108">
 					<height>55</height>
 			        	<width>920</width>
-					<font>font24_title</font>
+					<font>font13</font>
 					<label>Custom Background Path:</label>
 					<label2>[COLOR=selected]$INFO[Skin.String(CustomBackgroundPath)][/COLOR]</label2>
 					<textcolor>black</textcolor>
 					<focusedcolor>blue</focusedcolor>
-					<texturefocus border="0,2,0,2">MenuItemNF.png</texturefocus>
-				        <texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+					<texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+				        <texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
 					<onclick>Skin.SetImage(CustomBackgroundPath)</onclick>
 					<enable>Skin.HasSetting(UseCustomBackground)</enable>
 				</control>
