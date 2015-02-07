@@ -372,6 +372,7 @@
                         <scrollspeed>50</scrollspeed>
                         <scrollsuffix> - </scrollsuffix>
                     </control>
+                    <!--
                     <control type="group">
                         <posx>55r</posx>
                         <posy>0</posy>
@@ -382,9 +383,10 @@
                                 <width>40</width>
                                 <height>40</height>
                                 <aspectratio>scale</aspectratio>
-                                <texture>signal_$INFO[Window(Home).Property(Navigation.Quality)].png</texture>
+                                <texture fallback="signal_1.png">signal_$INFO[Window(Home).Property(Navigation.Quality)].png</texture>
                         </control>
                     </control>
+                    -->
                     <control type="label">
                         <posx>30</posx>
                         <posy>0</posy>
