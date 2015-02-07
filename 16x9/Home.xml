@@ -269,8 +269,6 @@
 		<include>MusicPlayerTitle</include>
 		<!-- GPS info -->
 		<control type="group">
-			<posy>185r</posy>
-			<posx>600</posx>
 			<include>GPSInfo</include>
 		</control>
 		<include>BottomNowPLaying</include>
