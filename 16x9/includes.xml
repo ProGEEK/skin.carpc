@@ -417,7 +417,7 @@
                         </control>
                 </control>
                 <control type="group">
-                        <visible>substring(Window(Home).Property(Navigation.Overspeed),false)</visible>
+                        <visible>!substring(Window(Home).Property(Navigation.Overspeed),true)</visible>
                         <control type="image">
                                 <description>Normal Background Image</description>
                                 <posx>0</posx>
