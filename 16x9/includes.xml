@@ -443,7 +443,7 @@
                                 <texture>special://skin/background/SKINDEFAULT.jpg</texture>
                                 <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
                                 <visible>!Player.HasAudio | Player.HasAudio + IsEmpty(Player.Art(fanart))</visible>
-                                <colordiffuse>33FFFFFF</colordiffuse>
+                                <colordiffuse>66FFFFFF</colordiffuse>
                         </control>
                         <control type="image">
                                 <description>User Set Logo Image</description>
@@ -455,7 +455,7 @@
                                 <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
                                 <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
                                 <visible>!Player.HasAudio | Player.HasAudio + IsEmpty(Player.Art(fanart))</visible>
-                                <colordiffuse>33FFFFFF</colordiffuse>
+                                <colordiffuse>66FFFFFF</colordiffuse>
                         </control>
                         <control type="image">
                                 <description>Fanart Image for Artist</description>
@@ -464,7 +464,7 @@
                                 <width>ScreenWidth</width>
                                 <height>ScreenHeight</height>
                                 <texture background="true">$INFO[Player.Art(fanart)]</texture>
-                                <colordiffuse>33FFFFFF</colordiffuse>
+                                <colordiffuse>66FFFFFF</colordiffuse>
                                 <visible>!IsEmpty(Player.Art(fanart))</visible>
                                 <fadetime>600</fadetime>
                         </control>
