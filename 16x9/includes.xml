@@ -355,9 +355,23 @@
 	<include name="GPSInfo">
                 <visible>substring(Window(Home).Property(Navigation.Active),true)</visible>
                 <posy>185r</posy>
+                <include>Window_OpenClose_Animation_Slide_Up</include>
                 <control type="group">
                     <visible>!Skin.HasSetting(HideGPSInfo)</visible>
-                    <include>Window_OpenClose_Animation_Slide_Up</include>
+                    <control type="label">
+                        <posx>30</posx>
+                        <posy>0</posy>
+                        <width>500</width>
+                        <height>50</height>
+                        <font>font50_title</font>
+                        <textcolor>white</textcolor>
+                        <selectedcolor>selected</selectedcolor>
+                        <align>left</align>
+                        <aligny>center</aligny>
+                        <label>Limit: $INFO[Window(Home).Property(Navigation.Limit)] km/h</label>
+                        <scrollspeed>50</scrollspeed>
+                        <scrollsuffix> - </scrollsuffix>
+                    </control>
                     <control type="label">
                         <posx>600</posx>
                         <posy>0</posy>
@@ -385,27 +399,13 @@
                                 <texture fallback="signal_1.png">signal_$INFO[Window(Home).Property(Navigation.Quality)].png</texture>
                         </control>
                     </control>
-                    <control type="label">
-                        <posx>30</posx>
-                        <posy>0</posy>
-                        <width>500</width>
-                        <height>50</height>
-                        <font>font50_title</font>
-                        <textcolor>white</textcolor>
-                        <selectedcolor>selected</selectedcolor>
-                        <align>left</align>
-                        <aligny>center</aligny>
-                        <label>Limit: $INFO[Window(Home).Property(Navigation.Limit)] km/h</label>
-                        <scrollspeed>50</scrollspeed>
-                        <scrollsuffix> - </scrollsuffix>
-                    </control>
                 </control>
         </include>
 	<include name="CommonBackground">
                 <control type="group">
-                        <visible>substring(Window(Home).Property(Navigation.Overspeed),true)</visible>
+                        <visible>substring(Window(Home).Property(Navigation.Overspeed),true) + !Skin.HasSetting(HideGPSInfo) + substring(Window(Home).Property(Navigation.Active),true)</visible>
                         <control type="image">
-                                <description>Normal Background Image</description>
+                                <description>OverSpeed Background Image</description>
                                 <posx>0</posx>
                                 <posy>0</posy>
                                 <width>ScreenWidth</width>
@@ -415,27 +415,7 @@
                         </control>
                 </control>
                 <control type="group">
-                        <visible>!substring(Window(Home).Property(Navigation.Overspeed),true)</visible>
-                        <control type="image">
-                                <description>Normal Background Image</description>
-                                <posx>0</posx>
-                                <posy>0</posy>
-                                <width>ScreenWidth</width>
-                                <height>ScreenHeight</height>
-                                <aspectratio>scale</aspectratio>
-                                <texture>special://skin/background/SKINDEFAULT.jpg</texture>
-                                <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
-                        </control>
-                        <control type="image">
-                                <description>User Set Logo Image</description>
-                                <posx>0</posx>
-                                <posy>0</posy>
-                                <width>ScreenWidth</width>
-                                <height>ScreenHeight</height>
-                                <aspectratio>scale</aspectratio>
-                                <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
-                                <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
-                        </control>
+                        <visible>!substring(Window(Home).Property(Navigation.Active),true) | Skin.HasSetting(HideGPSInfo) | substring(Window(Home).Property(Navigation.Active),true) + !substring(Window(Home).Property(Navigation.Overspeed),true)</visible>
                         <control type="visualisation">
                                 <posx>0</posx>
                                 <posy>0</posy>
@@ -452,6 +432,41 @@
                                 <width>ScreenWidth</width>
                                 <height>ScreenHeight</height>
                                 <visible>Player.HasVideo</visible>
+                        </control>
+                        <control type="image">
+                                <description>Normal Background Image</description>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <width>ScreenWidth</width>
+                                <height>ScreenHeight</height>
+                                <aspectratio>scale</aspectratio>
+                                <texture>special://skin/background/SKINDEFAULT.jpg</texture>
+                                <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
+                                <visible>!Player.HasAudio | Player.HasAudio + IsEmpty(Player.Art(fanart))</visible>
+                                <colordiffuse>33FFFFFF</colordiffuse>
+                        </control>
+                        <control type="image">
+                                <description>User Set Logo Image</description>
+                                <posx>0</posx>
+                                <posy>0</posy>
+                                <width>ScreenWidth</width>
+                                <height>ScreenHeight</height>
+                                <aspectratio>scale</aspectratio>
+                                <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+                                <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
+                                <visible>!Player.HasAudio | Player.HasAudio + IsEmpty(Player.Art(fanart))</visible>
+                                <colordiffuse>33FFFFFF</colordiffuse>
+                        </control>
+                        <control type="image">
+                                <description>Fanart Image for Artist</description>
+                                <left>0</left>
+                                <top>0</top>
+                                <width>ScreenWidth</width>
+                                <height>ScreenHeight</height>
+                                <texture background="true">$INFO[Player.Art(fanart)]</texture>
+                                <colordiffuse>33FFFFFF</colordiffuse>
+                                <visible>!IsEmpty(Player.Art(fanart))</visible>
+                                <fadetime>600</fadetime>
                         </control>
                 </control>
 		<!--<include>CommonHeader</include>-->
