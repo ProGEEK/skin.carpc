@@ -214,6 +214,18 @@
 					<onclick>Skin.SetImage(CustomBackgroundPath)</onclick>
 					<enable>Skin.HasSetting(UseCustomBackground)</enable>
 				</control>
+				<control type="radiobutton" id="109">
+                                        <height>55</height>
+                                        <width>920</width>
+                                        <font>font13</font>
+                                        <label>Fullscreen on Playback</label>
+                                        <textcolor>black</textcolor>
+                                        <focusedcolor>blue</focusedcolor>
+                                        <texturefocus border="0,2,0,2">menuitemnf.png</texturefocus>
+                                        <texturenofocus border="0,2,0,2">menuitemnf.png</texturenofocus>
+                                        <onclick>Skin.ToggleSetting(NoAutoFullscreen)</onclick>
+                                        <selected>!Skin.HasSetting(NoAutoFullscreen)</selected>
+                                </control>
                         </control>
                         <control type="scrollbar" id="30">
                                 <posx>975</posx>
