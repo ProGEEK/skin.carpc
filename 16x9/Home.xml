@@ -108,17 +108,17 @@
 			<posx>35</posx>
 			<posy>597</posy>
 			<control type="button">
-				<description>Networking</description>
+				<description>Desktop</description>
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>708</width>
 				<height>170</height>
 				<texturenofocus >home_3.png</texturenofocus>
 				<texturefocus border="5">home_3_p.png</texturefocus>
-				<onclick>RunAddon(script.linux.wireless)</onclick>
+				<onclick>RunScript("special://skin/scripts/desktop.py")</onclick>
 			</control>
 			<control type="image">
-				<description>Networking</description>
+				<description>Desktop</description>
 				<posx>50</posx>
 				<posy>30</posy>
 				<width>100</width>
@@ -126,12 +126,12 @@
 				<texture>icon_city_w.png</texture>
 			</control>
 			<control type="label">
-				<description>Networking label</description>
+				<description>Desktop label</description>
 				<posx>170</posx>
 				<posy>30</posy>
 				<height>100</height>
 				<width>350</width>
-				<label>Networking</label>
+				<label>Desktop</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<font>font50_title</font>
