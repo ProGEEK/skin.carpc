@@ -1,4 +1,4 @@
 import os
 import xbmc
 
-os.system("sakura -s -x \"map-sync\"");
+os.system("xfce4-terminal --fullscreen --hide-menubar -x map-sync");
