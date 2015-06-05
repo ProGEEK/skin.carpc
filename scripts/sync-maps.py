@@ -1,4 +1,4 @@
 import os
 import xbmc
 
-os.system("xfce4-terminal --fullscreen --hide-menubar -x map-sync");
+os.system("gnome-terminal --full-screen --hide-menubar -e map-sync");

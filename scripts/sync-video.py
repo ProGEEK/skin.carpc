@@ -1,4 +1,4 @@
 import os
 import xbmc
 
-os.system("xfce4-terminal --fullscreen --hide-menubar -x carpc-sync-video");
+os.system("gnome-terminal --full-screen --hide-menubar -e carpc-sync-video");
